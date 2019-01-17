@@ -8,24 +8,24 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
-    color: rgb(187, 197, 199);
+    color: rgb(112, 121, 122);
 }
 
 h1 {
     font-size: 20x;
-    color: #F6AE2D;
+    color: rgb(223, 211, 53);
 }
 
 h2 {
     font-size: 10x;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #33658A;
 }
 
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 header, footer, footer a {
@@ -35,7 +35,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 75;
+    width: 30%;
     height: auto;
     float: right;
 }
