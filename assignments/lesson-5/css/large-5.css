@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* { margin: 0; box-sizing: border-box; } 
+
+#content{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#393E41;
+    font-family:"Montserrat", "Arial", "sans-serif";
+    display: inline-block;
+    margin: 20px auto;
+    width: 100%;
+
+}
+
+header {
+	margin: 10px auto;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+header img, .headings {  
+    display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.mainTitle{
+    text-align: center;
+    font-family: "Montserrat", "Arial", "San-Serif";
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+nav{
+    background-color: #397D96;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+}
+
+nav a {
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color:#393E41;
+    background-color:#D3D0CB;
+    text-decoration: none;
+    
+}
+
+nav li a {
+    display: inline-block;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+}
+
+
+h1{
+    font-size:30px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+h2 {text-align: center; font-size: 2rem;}
+
+.hero-container {margin: 10px auto; position: relative;}
+
+.summary {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
+
+
+h3, h6 {
+    font-size:20px;
+    padding: 20px;
+}
+
+
+.fiveday{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 30px auto;
+    padding-left: 250px;
+}
+
+
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: "Montserrat", "Arial", "sans-serif";
+    color:#000000;
+}
+
+
+article img {
+
+    padding: 20px;
+}
+
+.right img {
+    float: right;
+    width: 50%;
+}
+
+article p{
+    display: block;
+    width: 45%;
+    padding: 20px;
+}
+
+.heroimg img{
+    width: 100%;
+}
+
+footer, address{
+    padding: 20px;
+}
+
+.contain2 .googlemap img{
+  width: 50%;
+}
+
+.contain2 address p {
+    position: relative;
+    left: 500px;
+    top: 250px;
+    display: block;
+    width: 45%;
+}
+footer{
+    background-color: #397D96;
+    color: #ffffff;
+}
