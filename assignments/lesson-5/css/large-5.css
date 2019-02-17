@@ -105,13 +105,14 @@ h3, h6 {
     padding: 20px;
 }
 
+.fiveforecast{
+    text-align: center;
+}
 
 .fiveday{
     display: inline-block;
     text-align: center;
-    width: 100%;
     margin: 30px auto;
-    padding-left: 250px;
 }
 
 
@@ -153,11 +154,11 @@ footer, address{
 }
 
 .contain2 address p {
-    position: relative;
-    left: 500px;
-    top: 250px;
-    display: block;
+    display: inline-block;
     width: 45%;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
 }
 footer{
     background-color: #397D96;
