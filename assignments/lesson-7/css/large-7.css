@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* { margin: 0; box-sizing: border-box; } 
+
+#content{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#393E41;
+    font-family:"Montserrat", "Arial", "sans-serif";
+    display: inline-block;
+    margin: 20px auto;
+    width: 100%;
+
+}
+
+
+.container_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.logotype{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitle{
+    text-align: center;
+    font-family: "Montserrat", "Arial", "San-Serif";
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hide{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav{
+    background-color: #397D96;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+}
+
+nav a {
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color:#393E41;
+    background-color:#D3D0CB;
+    
+}
+
+
+nav button{
+
+    display: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+}
+
+
+h1{
+    font-size:30px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+h2 {text-align: center; font-size: 2.2rem;}
+
+.hero-container {margin: 10px auto; position: relative;}
+
+
+
+    .summary {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        background: #fffff0;
+        opacity:0.8;
+        border: 3px solid #ffffff;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #fff;
+    }
+
+.summary h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+}
+
+
+h3, h6 {
+    font-size:20px;
+    padding: 20px;
+}
+
+.fiveforecast{
+    text-align: center;
+    display: flex;
+}
+
+.fiveday{
+    display: inline-flex;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.fiveday table tr {
+    border: solid;
+    background-color: #D3D0CB;
+}
+
+.fiveday table caption{
+    font-weight: bold;
+
+}
+
+.fiveday table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+}
+
+caption{
+    flex: 5;
+}
+
+.days1{flex:1;}
+.days2{flex:1;}
+.days3{flex:1;}
+.days4{flex:1;}
+.days5{flex:1;}
+
+
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: "Montserrat", "Arial", "sans-serif";
+    color:#000000;
+}
+
+.art{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.art h3, h6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.2px;
+    margin: 1.5rem;
+
+}
+
+
+article img {
+
+    padding: 20px;
+}
+
+.right img {
+    float: right;
+    width: 40%;
+}
+
+article p{
+    display: block;
+    width: 45%;
+    padding: 20px;
+}
+
+.heroimg img{
+    width: 100%;
+}
+
+footer, address{
+    padding: 20px;
+}
+
+.contain2{
+    display: flex;
+}
+
+address{
+    flex:2;
+}
+
+#map{
+    flex:1;
+}
+
+.contain2 .googlemap img{
+  width: 30%;
+}
+
+.contain2 address p {
+    width: 45%;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+#map{
+    padding: 20px;
+}
+
+.galleryImages{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 1em;
+    align-items: center;
+    padding: 3em;
+}
+
+.galleryImages figure img{
+    width: 100%;
+    padding-top: 2em;
+}
+
+.galleryImages figure figcaption{
+    text-align: center;
+    font-weight: bold; 
+
+}
+
+.galleryImages figure:hover {
+    box-shadow: 2px 2px 4px #000000;
+
+}
+
+
+footer {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #397D96;
+    color: #ffffff;
+}
+
+.footerbar{
+    background-color: #393E41;
+    color: #fff;
+}

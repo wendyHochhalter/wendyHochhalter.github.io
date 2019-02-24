@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+    <title>Precise Weather</title>
+    <meta name="description" content="Preston Main Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/small-7.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="css/large-7.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+
+    <div id="content">
+
+            <header>
+        <div class="container_head">
+                <img src="images/iconSite.png" alt="Cloud logo">
+            
+            <section class="logotype">
+              <h1>PRECISEWeather.net</h1>
+              <p><em>Your weatherproof forecast</em></p>
+            </section>
+        </div> 
+        
+    
+        <nav>
+            <div class="container_head2">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="toggle" class="hide">
+                <li class="active"><a href="preston-4.html">Home</a></li>
+                <li><a href="preston-7.html">Preston</a></li>
+                <li><a href="preston-4.html">Soda Springs</a></li>
+                <li><a href="preston-4.html">Fish Haven</a></li>
+                <li><a href="preston-4.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </div>
+        </nav>
+        
+        
+    </header>
+    
+    <main>
+        <h2>The Town of Preston</h2>
+        <div class="hero-container">
+
+            <div class="heroimg">
+
+                     <picture>
+                            <source media="(max-width: 900px)" srcset="images/heropic800w.jpg">
+                            <source media="(min-width: 901px)" srcset="images/heropic1200w.jpg">
+                            <img src="images/heropic1200w.jpg" alt="hero photo">
+                    </picture>
+
+                <!--Brother Odom, please check the windchill.js. I spent more than 4 hours trying to make it work. But it still displays
+                a wrong windchill estimate. Please help!-->
+                   
+                            <section class="summary">
+                                <h3>Weather Summary</h3>
+                                <p>Currently: <span id="summary1">Sunny</span></p>
+                                <p>Temperature: <span id="summary2">35</span>°F</p>
+                                <p>Wind Chill: <span id="summary3"></span>°F</p>
+                                <p>Humidity: <span id="summary4">30</span>%</p>
+                                <p>Wind Speed: <span id="summary5">9</span>mph</p>
+                            </section>
+            </div>
+        </div>
+
+
+      <div class="fiveforecast">
+        <div class="fiveday">
+                <table>
+                        <caption>FIVE DAY FORECAST</caption>
+                        <tr>
+                          <th class="days1">Sunday</th>
+                          <th class="days2">Monday</th>
+                          <th class="days3">Tuesday</th>
+                          <th class="days4">Wednesday</th>
+                          <th class="days5">Thursday</th>
+                        </tr>
+                        <tr>
+                          <td>45°F</td>  
+                          <td>47°F</td>
+                          <td>35°F</td>
+                          <td>39°F</td>
+                          <td>40°F</td>
+                        </tr>
+                      </table>
+        </div>
+        </div>
+       
+        
+        <article class="art">
+            <h3>Preston's Festival of Ligths</h3>
+            <h6>By James Loreto</h6>
+
+            <picture class="right">
+                    <source media="(max-width: 900px)" srcset="images/lights-550w.jpg">
+                    <source media="(min-width: 901px)" srcset="images/lights-800w.jpg">
+                    <img src="images/lights-800w.jpg" alt="fireworks">
+            </picture>
+            <p>Each year Preston holds the "Idaho Festival of Lights", which starts the day after Thanksgiving and goes until December 31. The festival was started by two local business men (Wayne Bell and Walter Ross) along with many other community organizations to help celebrate Christmas within the community. The festival consists of a lighted parade, fireworks, and displays in the city park. The merchants along the main street of Preston have their store fronts decorated with Christmas lights during the festival</p>
+            <p>A key event of the festival is the International Bed Race, which is held on the Saturday following Thanksgiving on the main street of Preston. Additional events are a kids' parade and free movie.</p>
+        </article>
+
+    </main>
+
+
+        <footer>
+        <div class="contain2">
+            <address>
+                <p>Precise Weather Co.<br>
+                Preston, Idaho.<br>
+                Phone number:(208)719-3267<br>
+                Write to us <a href="mailto:webmaster@example.com">here</a>.<br>
+                <img class="icons" src="images/facebook.png" alt="Facebook Icon">
+                <img class="icons" src="images/twitter.png" alt="Twitter Icon">
+                <img class="icons" src="images/youtube.png" alt="Youtube Icon">
+                <img class="icons" src="images/insta.png" alt="Instagram Icon">
+            </p>
+            </address>
+            <div id='map' style='width: 400px; height: 300px;'></div>
+        </div>
+    
+        <p class="footerbar">&copy;2018 All rights reserved | Precise Weather | <span id="todaysdate"></span></p>
+    </footer>
+</div>
+
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/hamburger.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+<script src="scripts/map.js"></script>
+<script src="scripts/windchill.js"></script>
+</body>
+
+</html>

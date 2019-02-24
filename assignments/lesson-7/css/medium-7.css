@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* { margin: 0; box-sizing: border-box; } 
+
+#content{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#393E41;
+    font-family:"Montserrat", "Arial", "sans-serif";
+    display: inline-block;
+    margin: 20px auto;
+    width: 100%;
+
+}
+
+
+.container_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.logotype{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitle{
+    text-align: center;
+    font-family: "Montserrat", "Arial", "San-Serif";
+    font-size: 30px;
+    font-weight: 900;
+}
+.logotype{
+    font-family: "Montserrat", "Arial", "San-Serif";
+}
+
+.hide{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav{
+    background-color: #397D96;
+    color: #ffffff;
+    font-family: "Montserrat", "Arial", "San-Serif";
+    font-size: 15px;
+    line-height: 2em;
+    font-weight: bold;
+
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+}
+
+nav a {
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color:#393E41;
+    background-color:#D3D0CB;
+    
+}
+
+
+nav button{
+
+    display: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+}
+
+
+h1{
+    font-size:30px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+h2 {text-align: center; font-size: 2.2rem;}
+
+
+
+h3, h6 {
+    font-size:20px;
+    padding: 20px;
+}
+
+
+footer, address{
+    font-family: "Montserrat", "Arial", "San-Serif";
+    padding: 20px;
+}
+
+.contain2{
+    display: flex;
+}
+
+address{
+    flex:2;
+}
+
+#map{
+    flex:1;
+}
+
+.contain2 .googlemap img{
+  width: 30%;
+}
+
+.contain2 address p {
+    font-family: "Montserrat", "Arial", "San-Serif";
+    width: 45%;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+#map{
+    padding: 20px;
+}
+
+.galleryImages{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 1em;
+    align-items: center;
+    padding: 5em;
+}
+
+.galleryImages figure img{
+    width: 100%;
+    padding-top: 2em;
+}
+
+.galleryImages figure figcaption{
+    text-align: center;
+    font-weight: bold; 
+    font-family: "Montserrat", "Arial", "San-Serif";
+
+}
+
+footer {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #397D96;
+    color: #ffffff;
+}
+
+.footerbar{
+    background-color: #393E41;
+    color: #fff;
+}
