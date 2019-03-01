@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     margin: 20px auto;
     width: 100%;
-
+    
 }
 
 
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
+    
 }
 
 .logotype{
@@ -57,7 +57,7 @@ nav{
     font-size: 15px;
     line-height: 2em;
     font-weight: bold;
-
+    
     text-align: center;
     padding-right: 20px;
     padding-left: 20px;
@@ -79,7 +79,7 @@ nav a:hover{
 
 
 nav button{
-
+    
     display: none;
 }
 
@@ -127,7 +127,7 @@ address{
 }
 
 .contain2 .googlemap img{
-  width: 30%;
+    width: 30%;
 }
 
 .contain2 address p {
@@ -135,7 +135,7 @@ address{
     width: 45%;
     padding: 15px;
     box-sizing: border-box;
-
+    
 }
 
 #map{
@@ -162,7 +162,7 @@ address{
     text-align: center;
     font-weight: bold; 
     font-family: "Montserrat", "Arial", "San-Serif";
-
+    
 }
 
 footer {

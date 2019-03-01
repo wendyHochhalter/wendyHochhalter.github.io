@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     margin: 20px auto;
     width: 100%;
-
+    
 }
 
 
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
+    
 }
 
 .logotype{
@@ -74,7 +74,7 @@ nav a:hover{
 
 
 nav button{
-
+    
     display: none;
 }
 
@@ -100,16 +100,16 @@ h2 {text-align: center; font-size: 2.2rem;}
 
 
 
-    .summary {
-        position: absolute;
-        top: 5%;
-        left: 5%;
-        background: #fffff0;
-        opacity:0.8;
-        border: 3px solid #ffffff;
-        padding: 5%;
-        box-shadow: 0 0 30px #fff;
-    }
+.summary {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background: #fffff0;
+    opacity:0.8;
+    border: 3px solid #ffffff;
+    padding: 5%;
+    box-shadow: 0 0 30px #fff;
+}
 
 .summary h3{
     font-size: 20px;
@@ -142,7 +142,7 @@ h3, h6 {
 
 .fiveday table caption{
     font-weight: bold;
-
+    
 }
 
 .fiveday table{
@@ -183,12 +183,12 @@ body {
     justify-content: flex-start;
     padding: 0.2px;
     margin: 1.5rem;
-
+    
 }
 
 
 article img {
-
+    
     padding: 20px;
 }
 
@@ -224,14 +224,14 @@ address{
 }
 
 .contain2 .googlemap img{
-  width: 30%;
+    width: 30%;
 }
 
 .contain2 address p {
     width: 45%;
     padding: 15px;
     box-sizing: border-box;
-
+    
 }
 
 #map{
@@ -257,12 +257,12 @@ address{
 .galleryImages figure figcaption{
     text-align: center;
     font-weight: bold; 
-
+    
 }
 
 .galleryImages figure:hover {
     box-shadow: 2px 2px 4px #000000;
-
+    
 }
 
 

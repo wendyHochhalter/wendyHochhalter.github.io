@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
+    
 }
 
 .logotype{
@@ -148,7 +148,7 @@ body {
 
 
 article img {
-
+    
     padding: 20px;
     width: 100%;
 }
@@ -180,19 +180,19 @@ address{
 
 .contain2 .googlemap img{
     width: 30%;
-  }
-  
-  .contain2 address p {
-      display: block;
-      width: 45%;
-  }
+}
 
-  .galleryImages{
-      display: grid;
-      grid-template-columns: 1fr;
-  }
+.contain2 address p {
+    display: block;
+    width: 45%;
+}
 
-  .galleryImages figure img{
+.galleryImages{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.galleryImages figure img{
     width: 100%;
     padding-top: 2em;
 }
@@ -200,10 +200,10 @@ address{
 .galleryImages figure figcaption{
     text-align: center;
     font-weight: bold; 
-
+    
 }
 
-  footer {
+footer {
     background-color: #397D96;
     color: #ffffff;
 }
