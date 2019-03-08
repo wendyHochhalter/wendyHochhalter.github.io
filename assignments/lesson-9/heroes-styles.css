@@ -1,0 +1,68 @@
+/* || general styles */
+
+html {
+    font-family: 'helvetica neue',  arial, sans-serif;
+  }
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    font-family: 'Jolly Lodger', cursive;
+  }
+  
+  /* header styles */
+  
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: red;
+    border: 15px solid gold;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* section styles */
+  
+  section article {
+    width: 33%;
+    float: left;
+  }
+  
+  section p {
+    margin: 5px 0;
+    font-weight: bolder;
+  }
+  
+  section ul {
+    margin-top: 0;
+   padding-top: 10px;
+
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  section h2 {
+      color: blue;
+      text-align: center;
+  }
+
+  button{
+      color: red;
+      font-family: 'Jolly Lodger', cursive;
+      font-size: 3em;
+      margin-top: 10%;
+      margin-left: 40%;
+      margin-right: 40%;
+  }
+  
