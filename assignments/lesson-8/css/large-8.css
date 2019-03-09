@@ -67,10 +67,19 @@ nav a {
     
 }
 
-nav a:hover{
+li:hover{
     color:#393E41;
     background-color:#D3D0CB;
     
+}
+
+li:hover a{
+    color: #000000;
+}
+
+li.active {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
 }
 
 

@@ -1,5 +1,5 @@
-var speed = parseFloat(document.getElementById("summary2").innerHTML);
-var temp = parseFloat(document.getElementById("summary5").innerHTML);
+/*var speed = parseInt(document.getElementById("summary2").innerHTML);
+var temp = parseInt(document.getElementById("summary5").innerHTML);*/
 
 /*Brother Odom:
 
@@ -41,11 +41,21 @@ wchill = Math.round(wchill);*/
 var wchill = 35.74 + (0.6215 * temp) - (35.75 * (Math.pow(speed, 0.16))) + 0.4275 * temp * (Math.pow(speed, 0.16));*/
 
 
- /*CORRECT FORMULA BY BROTHER ODOM, SAME RESULT*/ 
-var wchill = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temp) * Math.pow(speed, 0.16);
+
+
+/*var wchill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+
 
 
 wchill = Math.round(wchill);
 
 
-document.getElementById("summary3").innerHTML = wchill;
+document.getElementById("summary3").innerHTML = wchill;*/
+
+var temp = parseInt(document.getElementById('summary2').innerHTML);
+var speed = parseInt(document.getElementById('summary5').innerHTML);
+
+var windChill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+
+windChill = Math.round(windChill);
+document.getElementById("summary3").innerHTML = windChill;
