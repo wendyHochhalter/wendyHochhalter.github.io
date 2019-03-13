@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+    <title>Home Precise Weather</title>
+    <meta name="description" content="Precise Weather | Home">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/small-10.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="css/large-10.css">
+    
+    
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+    <div id="content">
+        
+        <header>
+            <div class="container_head">
+                <img src="images/iconSite.png" alt="Cloud logo">
+                
+                <div class="logotype">
+                    <h1>PRECISEWeather.net</h1>
+                    <p><em>Your weatherproof forecast</em></p>
+                </div>
+            </div> 
+            
+            
+            <nav>
+                <div class="container_head2">
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="toggle" class="hide">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="preston-10.html">Preston</a></li>
+                        <li><a href="preston-4.html">Soda Springs</a></li>
+                        <li><a href="preston-4.html">Fish Haven</a></li>
+                        <li><a href="stormcenter-10.html">Storm Center</a></li>
+                        <li><a href="gallery-10.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+    
+    <main>
+        
+        <div class="hero-container">
+            <div class="heroimg">
+                
+                <picture>
+                    <source media="(max-width: 900px)" srcset="images/home800w.jpg">
+                        <source media="(min-width: 901px)" srcset="images/home1200w.jpg">
+                            <img src="images/home1200w.jpg" alt="hero photo">
+                        </picture>
+                    </div>
+                </div>
+
+                <article class="towninfo">
+        
+                </article>
+
+                <a href="https://wendyhochhalter.github.io/">Back to Portal</a>
+
+    </main>
+
+</div>
+    
+    <footer>
+        <div class="contain2">
+            <address>
+                <p>Precise Weather Co.<br>
+                    Preston, Idaho.<br>
+                    Phone number:(208)719-3267<br>
+                    Write to us <a href="mailto:webmaster@example.com">here</a>.<br>
+                    <img class="icons" src="images/facebook.png" alt="Facebook Icon">
+                    <img class="icons" src="images/twitter.png" alt="Twitter Icon">
+                    <img class="icons" src="images/youtube.png" alt="Youtube Icon">
+                    <img class="icons" src="images/insta.png" alt="Instagram Icon">
+                </p>
+            </address>
+            <div id='map' style='width: 400px; height: 300px;'>
+                    <img src="images/map.JPG" alt="map">
+            </div>
+        </div>
+        
+        <p class="footerbar">&copy;2018 All rights reserved | Precise Weather | <span id="todaysdate"></span></p>
+    </footer>
+    
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!--<script src="scripts/map.js"></script>--><!--CUTTING OUT MAP TO HELP WITH LOADING WEIGHT-->
+
+    <script src="towninformation.js"></script>
+</body>
+
+</html>

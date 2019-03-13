@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* { margin: 0; box-sizing: border-box; } 
+
+#content{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px #777;
+}
+ 
+
+h1, h2, h3, h4, h5, h6 {
+    color:#393E41;
+    font-family:"Montserrat", "Arial", "sans-serif";
+    display: inline-block;
+    margin: 20px auto;
+    width: 100%;
+    
+}
+
+
+.container_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logotype{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitle{
+    text-align: center;
+    font-family: "Montserrat", "Arial", "San-Serif";
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hide{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav{
+    background-color: #397D96;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+}
+
+nav a {
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+
+li:hover{
+    color:#393E41;
+    background-color:#D3D0CB;
+    
+}
+
+li:hover a{
+    color: #000000;
+}
+
+li.active {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+
+nav button{
+    
+    display: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+}
+
+
+h1{
+    font-size:30px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+h2 {text-align: center; font-size: 2.2rem;}
+
+.hero-container {margin: 10px auto; position: relative;}
+
+/*FORMS CSS*/
+
+form fieldset {
+    display: block;
+    width: 50%;
+    border: 5px solid #397D96;
+    background: #ddd;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+fieldset label{
+    display: block;
+    padding-top: 5%;
+
+}
+
+fieldset p{
+    padding-top:5%;
+    font-weight: bold;
+}
+fieldset textarea{
+    width: 40%;
+}
+
+fieldset legend {
+    background: #397D96;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+#slider{
+    width: 100%;
+    padding-top: 5%;
+}
+
+#rating{
+    -webkit-appearance: none;
+    width: 97%;
+    height: 15px;
+    border-radius: 5px;
+    background: #397D96;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#rating:hover{
+    opacity:1;
+}
+#rating::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  #rating::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+  form input{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+
+fieldset select{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+#middlecontainer{
+    width: 100%;
+}
+
+
+  input[type=submit] {
+    width: 40%;
+    background-color: #397D96;
+    color: white;
+    font-size:2em;
+    padding: 14px 20px;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #D3D0CB;
+    color: #000000;
+  }
+
+  form input[type=submit]{
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+  }
+
+  /*Thank you page CSS*/
+
+  .thank h2, .thank p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+  }
+
+  /*HOME PAGE CSS*/
+
+  main article{
+      width: 100%;
+  }
+
+  .towninfo article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2em;
+    width: 100%;
+    border: solid 5px #397D96;
+    align-items: center;
+}
+
+  .towninfo{
+    background-color: #ffffff;
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+
+.towninfo h2{
+
+    font-size: 20px;
+    padding: 5px;
+    margin: 1px;
+    text-align: center;
+}
+
+.towninfo h3{
+
+    font-size: 15px;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+}
+
+.towninfo p{
+    font-family: "Montserrat", "Arial", "San-Serif"; 
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.towninfo img{
+    width: 100%;
+}
+
+main a{
+    margin-left: 42%;
+    margin-right: 42%;
+}
+  /*END HOME PAGE*/
+
+
+.summary {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background: #fffff0;
+    opacity:0.8;
+    border: 3px solid #ffffff;
+    padding: 5%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.summary h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+}
+
+
+h3, h6 {
+    font-size:20px;
+    padding: 20px;
+}
+
+.fiveforecast{
+    text-align: center;
+    display: flex;
+}
+
+.fiveday{
+    display: inline-flex;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.fiveday table tr {
+    border: solid;
+    background-color: #D3D0CB;
+}
+
+.fiveday table caption{
+    font-weight: bold;
+    
+}
+
+.fiveday table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+}
+
+caption{
+    flex: 5;
+}
+
+.days{flex:1;}
+.days2{flex:1;}
+.days3{flex:1;}
+.days4{flex:1;}
+.days5{flex:1;}
+
+
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: "Montserrat", "Arial", "sans-serif";
+    color:#000000;
+}
+
+.art{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.art h3, h6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.2px;
+    margin: 1.5rem;
+    
+}
+
+
+article img {
+    
+    padding: 20px;
+}
+
+.right img {
+    float: right;
+    width: 40%;
+}
+
+article p{
+    display: block;
+    width: 45%;
+    padding: 20px;
+}
+
+.heroimg img{
+    width: 100%;
+}
+
+footer, address{
+    padding: 20px;
+}
+
+.contain2{
+    display: flex;
+}
+
+address{
+    flex:2;
+}
+
+#map{
+    flex:1;
+}
+
+.contain2 .googlemap img{
+    width: 30%;
+}
+
+.contain2 address p {
+    width: 45%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+#map{
+    padding: 20px;
+}
+
+.galleryImages{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 1em;
+    align-items: center;
+    padding: 3em;
+}
+
+.galleryImages figure img{
+    width: 100%;
+    padding-top: 2em;
+}
+
+.galleryImages figure figcaption{
+    text-align: center;
+    font-weight: bold; 
+    
+}
+
+.galleryImages figure:hover {
+    box-shadow: 2px 2px 4px #000000;
+    
+}
+
+
+footer {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #397D96;
+    color: #ffffff;
+}
+
+.footerbar{
+    background-color: #393E41;
+    color: #fff;
+}
