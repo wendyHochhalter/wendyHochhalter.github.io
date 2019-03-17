@@ -39,6 +39,13 @@ header {
     font-weight: 900;
 }
 
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: goldenrod;
+}
 
 nav{
     background-color: #397D96;
@@ -347,6 +354,16 @@ article p{
     width: 100%;
     padding: 20px;
 }
+
+/*Event CSS*/
+
+article ol li{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    }
 
 footer, address{
     padding: 20px;
