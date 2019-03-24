@@ -8,7 +8,7 @@
     background-color: #ffffff;
     box-shadow: 0 0 30px #777;
 }
-
+ 
 
 h1, h2, h3, h4, h5, h6 {
     color:#393E41;
@@ -17,6 +17,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px auto;
     width: 100%;
     
+}
+header {
+	margin: 10px auto;
+	background-color: #ffffff;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
 }
 
 
@@ -29,10 +36,15 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
+.container_head img{
+    width: 17%;
+}
+
 .logotype{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Montserrat", "Arial", "San-Serif";
 }
 
 .mainTitle{
@@ -41,32 +53,53 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     font-weight: 900;
 }
-.logotype{
-    font-family: "Montserrat", "Arial", "San-Serif";
-}
 
 .hide{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: goldenrod;
+}
+
+.linking {
+    width: 75%;
+    margin: 0 auto;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.linking:hover{
+    color:goldenrod;
+}
+
 nav{
+    font-family:"Montserrat", "Arial", "sans-serif";
     background-color: #397D96;
     color: #ffffff;
-    font-family: "Montserrat", "Arial", "San-Serif";
-    font-size: 15px;
-    line-height: 2em;
+    font-size: 30px;
     font-weight: bold;
-    
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    
+    line-height: 2em; 
     
 }
 
+nav button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+
 nav a {
+    font-family:"Montserrat", "Arial", "sans-serif";
     color:#ffffff;
     text-decoration: none;
     
@@ -75,21 +108,51 @@ nav a {
 nav a:hover{
     color:#393E41;
     background-color:#D3D0CB;
-    
+    text-decoration: none;
 }
 
+nav .active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
 
-nav button{
-    
+nav ul.hide{
     display: none;
 }
-
-ul li {
-    list-style: none;
-    display: inline-block;
-    width: 200px;
+nav li a {
+    display: flex;
+    flex-direction: column;
+    padding: .8rem 2%;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 
+li:hover{
+    color:#393E41;
+    background-color:#D3D0CB;
+    
+}
+
+li:hover a{
+    color: #000000;
+}
+
+li.active {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    padding: 0;
+}
 
 h1{
     font-size:30px;
@@ -100,7 +163,7 @@ h2 {
     padding: 50px;
 }
 
-h2 {text-align: center; font-size: 2.2rem;}
+h2 {text-align: center; font-size: 3em;}
 
 
 
@@ -121,7 +184,6 @@ form fieldset {
 }
 
 fieldset label{
-    display: block;
     padding-top: 5%;
 
 }
@@ -233,9 +295,10 @@ textarea {
 
   form input[type=radio]{
     display: inline;
-    margin: 0 auto;
+    margin-right: 10px;
     width: 5%;
   }
+
 
   /*Thank you page CSS*/
 
@@ -249,7 +312,7 @@ textarea {
   }
 
 
-footer, address{
+address{
     font-family: "Montserrat", "Arial", "San-Serif";
     padding: 20px;
 }
@@ -305,14 +368,25 @@ address{
     
 }
 
+
 footer {
     width: 75%;
     margin: 0 auto;
     background-color: #397D96;
     color: #ffffff;
+    line-height: 32px;
 }
 
 .footerbar{
+    font-family: "Montserrat", "Arial", "San-Serif";
     background-color: #393E41;
     color: #fff;
+    display: flex;
+   font-size: 0.9rem;
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
+   line-height: 32px;
 }

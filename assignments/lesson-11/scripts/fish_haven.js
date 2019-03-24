@@ -17,6 +17,25 @@ function toggleMenu(){
     document.getElementById("toggle").classList.toggle("hide");
 }
 
+//WAYFINDING
+
+var urlString = document.location.href;
+var urlArray = urlString.split('/');
+var pageHREF = urlArray[urlArray.length-1];
+
+if (pageHREF !==""){
+    var menu = document.querySelectorAll('ul.mainmenu li a');
+    var i;
+
+    for (i=0; i<menu.length; i++){
+        var currentURL=(menu[i].getAttribute("href"));
+        menu[i].parentNode.classsName="";
+        if (currentURL===pageHREF){
+            menu[i].parentNode.className="active";
+        }
+    }
+}
+
 //WEATHER SUMMARY
 let weatherRequest = new XMLHttpRequest();
 
@@ -35,9 +54,6 @@ weatherRequest.onload = function(){
     document.getElementById("summary4").innerHTML = weatherSummary.main.humidity;
     document.getElementById("summary5").innerHTML = weatherSummary.wind.speed;
 
-
-}
-
 // WINDCHILL
 
 var temp = parseInt(document.getElementById('summary2').innerHTML);
@@ -47,6 +63,51 @@ var windChill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 *
 
 windChill = Math.round(windChill);
 document.getElementById("summary3").innerHTML = windChill;
+
+// WIND DIRECTION
+
+/*Define variables*/
+
+let d = [weatherSummary.wind.deg];
+let dir = "";
+
+/*Convert degrees to direction*/
+
+if ((d >= 337 && d <= 360) || (d >=0 && d <= 22)) {
+dir ="north";
+}
+
+else if (d >= 23 && d <= 67) {
+dir ="northeast";
+}
+
+else if (d >= 68 && d <= 112) {
+dir ="east";
+}
+
+else if (d >= 113 && d <= 157) {
+dir ="southeast";
+}
+
+else if (d >= 158 && d <= 202) {
+dir ="south";
+}
+
+else if (d >= 203 && d <= 246) {
+dir ="southwest";
+}
+
+else if (d >= 247 && d <= 290) {
+dir ="west";
+}
+
+else dir = "northwest"
+
+/*Define span id of 'direction' and get element from variable 'dir'*/
+
+document.getElementById("summary6").textContent=dir;
+
+}
 
 
 //FORECAST

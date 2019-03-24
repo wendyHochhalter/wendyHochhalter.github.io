@@ -50,11 +50,23 @@ header {
 .link:hover{
     color: goldenrod;
 }
+.linking {
+    width: 75%;
+    margin: 0 auto;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.linking:hover{
+    color:goldenrod;
+}
 
 nav{
     background-color: #397D96;
     color: #ffffff;
     font-size: 30px;
+    font-weight: bold;
     line-height: 2em; 
     
 }
@@ -99,6 +111,10 @@ ul li {
     display: block;
     padding: 0;
     margin: 0;
+}
+
+nav ul{
+    padding: 0;
 }
 
 
@@ -156,7 +172,6 @@ form fieldset {
 }
 
 fieldset label{
-    display: block;
     padding-top: 5%;
 
 }
@@ -266,7 +281,7 @@ textarea {
 
   form input[type=radio]{
     display: inline;
-    margin: 0 auto;
+    margin-right: 10px;
     width: 5%;
   }
 
@@ -394,6 +409,7 @@ article p{
 
 /*Event CSS*/
 
+
 .eventImg{
     width: 75%;
     margin: 0 auto;
@@ -417,8 +433,10 @@ article ol li{
     margin-right: 3em;
     }
 
-footer, address{
-    padding: 20px;
+address{
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contain2{
@@ -433,6 +451,7 @@ address{
 
 #map{
     flex:1;
+    padding:20px;
 }
 
 
@@ -443,6 +462,7 @@ address{
 .contain2 address p {
     display: block;
     width: 45%;
+    padding: 20px;
 }
 
 .galleryImages{
@@ -468,5 +488,12 @@ footer {
 
 .footerbar{
     background-color: #393E41;
-    color: #fff
+    color: #fff;
+    display: flex;
+   font-size: 0.9rem;
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
 }

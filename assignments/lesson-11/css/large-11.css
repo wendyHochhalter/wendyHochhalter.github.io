@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .link{
@@ -61,22 +60,38 @@ h1, h2, h3, h4, h5, h6 {
     color: goldenrod;
 }
 
+.linking {
+    width: 75%;
+    margin: 0 auto;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.linking:hover{
+    color:goldenrod;
+}
+
 nav{
+    /*display:inline-flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;*/
     background-color: #397D96;
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 2em;
     font-weight: bold;
     text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
     
     
 }
 
 nav a {
+    
     color:#ffffff;
     text-decoration: none;
+    padding: 15px;
     
 }
 
@@ -104,7 +119,6 @@ nav button{
 ul li {
     list-style: none;
     display: inline-block;
-    width: 200px;
 }
 
 
@@ -133,14 +147,17 @@ form fieldset {
 }
 
 fieldset label{
-    display: block;
     padding-top: 5%;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 2.5em;
 
 }
 
 fieldset p{
     padding-top:5%;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 1.3em;
 }
 fieldset textarea{
     width: 40%;
@@ -241,11 +258,12 @@ textarea {
 
   }
 
- form input[type=radio]{
+  form input[type=radio]{
     display: inline;
-    margin: 0 auto;
+    margin-right: 10px;
     width: 5%;
   }
+
 
   /*Thank you page CSS*/
 
@@ -434,8 +452,6 @@ article img {
 }
 
 article p{
-    display: block;
-    width: 45%;
     padding: 20px;
 }
 
@@ -443,7 +459,7 @@ article p{
     width: 100%;
 }
 
-footer, address{
+address{
     padding: 20px;
 }
 
@@ -538,7 +554,12 @@ footer {
     background-color: #393E41;
     color: #fff;
     display: flex;
+   font-size: 0.9rem;
+   display: inline-flex;
+   flex-direction: row;
    justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
 }
 
 

@@ -1,4 +1,4 @@
-//STORM CENTER.JS
+//THANKS.JS
 
 //CURENT DATE
 
@@ -17,6 +17,7 @@ function toggleMenu(){
     document.getElementById("toggle").classList.toggle("hide");
 
 }
+
 //WAYFINDING
 
 var urlString = document.location.href;
@@ -34,9 +35,4 @@ if (pageHREF !==""){
             menu[i].parentNode.className="active";
         }
     }
-}
-
-//RATING
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
 }
