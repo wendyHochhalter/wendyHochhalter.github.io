@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+    <title>Fish Haven | Precise Weather</title>
+    <meta name="description" content="Fish Haven Main Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/small-11.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="css/large-11.css">
+</head>
+
+<body>
+    
+    <div id="content">
+        
+        <header>
+            <div class="container_head">
+                <img src="images/iconSite.png" alt="Cloud logo">
+                
+                <section class="logotype">
+                    <h1>PRECISEWeather.net</h1>
+                    <p><em>Your weatherproof forecast</em></p>
+                </section>
+            </div> 
+            
+            
+            <nav>
+                <div class="container_head2">
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="toggle" class="hide mainmenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="soda_springs.html">Soda&nbsp;Springs</a></li>
+                        <li><a href="fish_haven.html">Fish&nbsp;Haven</a></li>
+                        <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            
+        </header>
+        
+        <main>
+            <h2>The Town of Fish Haven</h2>
+            <div class="hero-container">
+                
+                <div class="heroimg">
+                    
+                    <picture>
+                        <source media="(max-width: 900px)" srcset="images/fish_haven_800px.jpg">
+                            <source media="(min-width: 901px)" srcset="images/fish_haven_1200px.jpg">
+                                <img src="images/fish_haven_1200px.jpg" alt="Lake and lots of cat tails">
+                            </picture>
+                        </div>
+                                
+                                <div class="summary" >
+                                    <h3>Weather Summary</h3>
+                                    <div class="textp">
+                                        <p>Currently: <span id="summary1"></span></p>
+                                        <p>Temperature: <span id="summary2"></span>°F</p>
+                                        <p>Humidity: <span id="summary4"></span>%</p>
+                                        <p>Wind Speed: <span id="summary5"></span>mph</p>
+                                        <p>Wind Direction: <span id="summary6"></span></p>
+                                        <p>Wind Chill: <span id="summary3"></span>°F</p>
+                                    </div>
+                                </div>
+                
+                        </div>
+                        
+                        
+                        <div class="fiveforecast">
+                            <div class="fiveday">
+                                <table>
+                                    <caption>5-day Forecast</caption>
+                                    <tr>
+                                        <th id="days1"></th>
+                                        <th id="days2"></th>
+                                        <th id="days3"></th>
+                                        <th id="days4"></th>
+                                        <th id="days5"></th>
+                                    </tr>
+                                    <tr>
+                                        <td><img id="fimg1" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg2" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg3" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg4" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg5" src="#" alt="weather icon"></td>   
+                                    </tr>
+                                    <tr>
+                                        <td id="f1"></td>  
+                                        <td id="f2"></td>
+                                        <td id="f3"></td>
+                                        <td id="f4"></td>
+                                        <td id="f5"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        
+                        <article class="art">
+                            <h3>Beyond the Lake</h3>
+                            <h6><em>By Jim Urquhart</em></h6>
+                            
+                            <picture class="right">
+                                <source media="(max-width: 900px)" srcset="images/bear_lake550w.jpg">
+                                    <source media="(min-width: 901px)" srcset="images/bear_lake800w.jpg">
+                                        <img src="images/bear_lake800w.jpg" alt="View of Bear Lake">
+                                    </picture>
+                                    <p>As we sail through the silent forest on our sleds, large flakes fall slowly on the Sinks of Northern Utah. The Sinks are a natural limestone sinkhole in Logan Canyon, and have the dubious distinction of being the coldest spot in Utah. They are also known for the second-coldest recorded temperature in the lower 48 states, -69.3 degrees Fahrenheit. Single file, we follow a lonely path through a massive field of white. Off the trail the powder is deep, billowy, and inviting. In the distance the trees provide contrast — this is where our options expand.</p>
+                                    <p>Thankfully, it's not that cold when I visit, though I've layered appropriately and prepared for the experience. And while those extreme, cold temperatures can translate to light snow, I am told, there are plenty of beautiful, sunny, blue-sky days at the Sinks. Today is overcast, however, and seemingly solitary — a little unexpected for a Saturday afternoon.</p>
+                                </article>
+
+                                <section class="articleEvents">
+                                        <h2>Come join the following town events!</h2>
+                                        <div> <img class="eventImg" src="images/fish.jpg" alt="Man Holding a fish"></div>
+                                        <article id="events"></article>
+                                </section>
+                                
+                            </main>
+                        </div>
+                        
+                        
+                        <footer>
+                            <div class="contain2">
+                                <address>
+                                    <p>Precise&nbsp;Weather&nbsp;Co.<br>
+                                        Preston,&nbsp;Idaho.<br>
+                                        Phone&nbsp;number:(208)719-&nbsp;3267<br>
+                                        Write&nbsp;to&nbsp;us&nbsp;<a class="link" href="mailto:webmaster@example.com">here</a>.<br>
+                                        <img class="icons" src="images/facebook.png" alt="Facebook Icon">
+                                        <img class="icons" src="images/twitter.png" alt="Twitter Icon">
+                                        <img class="icons" src="images/youtube.png" alt="Youtube Icon">
+                                        <img class="icons" src="images/insta.png" alt="Instagram Icon">
+                                    </p>
+                                </address>
+                                <div id='map' style='width: 400px; height: 300px;'>
+                                    <img src="images/map.JPG" alt="map">
+                                </div>
+                            </div>
+                            
+                            <p class="footerbar">&copy;2019 All rights reserved&nbsp;<a class="link" href="http://www.byui.edu/">byui.edu</a>&nbsp;| Precise Weather |&nbsp;<span id="todaysdate"></span>&nbsp;|&nbsp;Conditions retrieved from&nbsp;<a class="link" href="https://openweathermap.org/"> openweathermap.org</a></p>                        </footer>
+                        
+                        <script src="scripts/fish_haven.js"></script>
+                    
+                    </html>

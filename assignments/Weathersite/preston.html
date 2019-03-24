@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+    <title>Preston | Precise Weather</title>
+    <meta name="description" content="Preston Main Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/small-11.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="css/large-11.css">
+</head>
+
+<body>
+    
+    <div id="content">
+        
+        <header>
+            <div class="container_head">
+                <img src="images/iconSite.png" alt="Cloud logo">
+                
+                <section class="logotype">
+                    <h1>PRECISEWeather.net</h1>
+                    <p><em>Your weatherproof forecast</em></p>
+                </section>
+            </div> 
+            
+            
+            <nav>
+                <div class="container_head2">
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="toggle" class="hide mainmenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="soda_springs.html">Soda&nbsp;Springs</a></li>
+                        <li><a href="fish_haven.html">Fish&nbsp;Haven</a></li>
+                        <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            
+        </header>
+        
+        <main>
+            <h2>The Town of Preston</h2>
+            <div class="hero-container">
+                
+                <div class="heroimg">
+                    
+                    <picture>
+                        <source media="(max-width: 900px)" srcset="images/heropic800w.jpg">
+                            <source media="(min-width: 901px)" srcset="images/heropic1200w.jpg">
+                                <img src="images/heropic1200w.jpg" alt=" Bright, sunny day overlooking the mountains">
+                            </picture>
+                        </div>
+                                
+                                <div class="summary" >
+                                    <h3>Weather Summary</h3>
+                                    <div class="textp">
+                                        <p>Currently: <span id="summary1"></span></p>
+                                        <p>Temperature: <span id="summary2"></span>°F</p>
+                                        <p>Humidity: <span id="summary4"></span>%</p>
+                                        <p>Wind Speed: <span id="summary5"></span>mph</p>
+                                        <p>Wind Direction: <span id="summary6"></span></p>
+                                        <p>Wind Chill: <span id="summary3"></span>°F</p>
+                                    </div>
+                                </div>
+                
+                        </div>
+                        
+                        
+                        <div class="fiveforecast">
+                            <div class="fiveday">
+                                <table>
+                                    <caption>5-day Forecast</caption>
+                                    <tr>
+                                        <th id="days1"></th>
+                                        <th id="days2"></th>
+                                        <th id="days3"></th>
+                                        <th id="days4"></th>
+                                        <th id="days5"></th>
+                                    </tr>
+                                    <tr>
+                                        <td><img id="fimg1" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg2" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg3" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg4" src="#" alt="weather icon"></td>  
+                                        <td><img id="fimg5" src="#" alt="weather icon"></td>  
+                                    </tr>
+                                    <tr>
+                                        <td id="f1"></td>  
+                                        <td id="f2"></td>
+                                        <td id="f3"></td>
+                                        <td id="f4"></td>
+                                        <td id="f5"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                                <article class="art">
+                                    <h3>‘My Fair Lady’ opens this week</h3>
+                                    <h6><em>By Necia P. Seamons, Citizen editor</em></h6>
+                                    
+                                    <picture class="right">
+                                        <source media="(max-width: 900px)" srcset="images/fairLady550px.jpg">
+                                            <source media="(min-width: 901px)" srcset="images/fairLady.jpg">
+                                                <img src="images/fairLady.jpg" alt="My Fair Lady actors">
+                                            </picture>
+                                            <p>Featuring the talents of over two-dozen Franklin County artists, “My Fair Lady” opens tomorrow, March 21, at The Worm Creek Opera House. The story, set in 1912 England, tells of the transformation of a dirty, curbside flower girl into a young woman with the mannerisms of royalty - on a bet. This musical is full of dance and comedy. It runs through the weekend as well as Monday, March 25.</p>
+                                            <p>Pictured are Eliza Doolittle (Brittany Nelson) learning the manners of the uppercrust from  Professor Higgins (Bruce Kidd) and Col. Pickering (Blair Gregersen). The production is put on by the Franklin County Theater Arts Council and Worm Creek Opera House.</p>
+                                        </article>
+                                <section class="articleEvents">
+                                        <h2>Come join the following town events!</h2>
+                                        <div> <img class="eventImg" src="images/flag1200.jpg" alt="Ladies carrying the flag"></div>
+                                        <article id="events"></article>
+                                </section>
+                                
+                            </main>
+                        </div>
+                        
+                        
+                        <footer>
+                            <div class="contain2">
+                                <address>
+                                    <p>Precise&nbsp;Weather&nbsp;Co.<br>
+                                        Preston,&nbsp;Idaho.<br>
+                                        Phone&nbsp;number:(208)719-&nbsp;3267<br>
+                                        Write&nbsp;to&nbsp;us&nbsp;<a class="link" href="mailto:webmaster@example.com">here</a>.<br>
+                                        <img class="icons" src="images/facebook.png" alt="Facebook Icon">
+                                        <img class="icons" src="images/twitter.png" alt="Twitter Icon">
+                                        <img class="icons" src="images/youtube.png" alt="Youtube Icon">
+                                        <img class="icons" src="images/insta.png" alt="Instagram Icon">
+                                    </p>
+                                </address>
+                                <div id='map' style='width: 400px; height: 300px;'>
+                                    <img src="images/map.JPG" alt="map">
+                                </div>
+                            </div>
+                            
+                            <p class="footerbar">&copy;2019 All rights reserved&nbsp;<a class="link" href="http://www.byui.edu/">byui.edu</a>&nbsp;| Precise Weather |&nbsp;<span id="todaysdate"></span>&nbsp;|&nbsp;Conditions retrieved from&nbsp;<a class="link" href="https://openweathermap.org/"> openweathermap.org</a></p>                        </footer>
+
+                        <!--ALL SCRIPTS ARE IN COMMON TOWN.JS FILE-->
+
+                        <script src="scripts/preston.js"></script> 
+                    
+                    </html>

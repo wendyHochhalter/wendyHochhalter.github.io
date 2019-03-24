@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+    <title>Home | Precise Weather</title>
+    <meta name="description" content="Precise Weather Home Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/small-11.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="css/large-11.css">
+</head>
+
+<body>
+    <div id="content">
+        
+        <header>
+            <div class="container_head">
+                <img src="images/iconSite.png" alt="Cloud logo">
+                
+                <div class="logotype">
+                    <h1>PRECISEWeather.net</h1>
+                    <p><em>Your weatherproof forecast</em></p>
+                </div>
+            </div> 
+            
+            
+            <nav>
+                <div class="container_head2">
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="toggle" class="hide mainmenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="soda_springs.html">Soda&nbsp;Springs</a></li>
+                        <li><a href="fish_haven.html">Fish&nbsp;Haven</a></li>
+                        <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+    
+    <main>
+        
+        <div class="hero-container">
+            <div class="heroimg">
+                
+                <picture>
+                    <source media="(max-width: 900px)" srcset="images/home800w.jpg">
+                        <source media="(min-width: 901px)" srcset="images/home1200w.jpg">
+                            <img src="images/home1200w.jpg" alt="Sunrise over field">
+                        </picture>
+                    </div>
+                </div>
+
+                <article class="towninfo">
+        
+                </article>
+
+                <a class="linking" href="https://wendyhochhalter.github.io/">Back to Portal</a>
+
+    </main>
+
+</div>
+    
+    <footer>
+        <div class="contain2">
+            <address>
+                <p>Precise&nbsp;Weather&nbsp;Co.<br>
+                    Preston,&nbsp;Idaho.<br>
+                    Phone&nbsp;number:(208)719-&nbsp;3267<br>
+                    Write&nbsp;to&nbsp;us&nbsp;<a class="link" href="mailto:webmaster@example.com">here</a>.<br>
+                    <img class="icons" src="images/facebook.png" alt="Facebook Icon">
+                    <img class="icons" src="images/twitter.png" alt="Twitter Icon">
+                    <img class="icons" src="images/youtube.png" alt="Youtube Icon">
+                    <img class="icons" src="images/insta.png" alt="Instagram Icon">
+                </p>
+            </address>
+            <div id='map' style='width: 400px; height: 300px;'>
+                    <img src="images/map.JPG" alt="map">
+            </div>
+        </div>
+        
+        <p class="footerbar">&copy;2019 All rights reserved&nbsp;<a class="link" href="http://www.byui.edu/">byui.edu</a>&nbsp;| Precise Weather |&nbsp;<span id="todaysdate"></span>&nbsp;|&nbsp;Conditions retrieved from&nbsp;<a class="link" href="https://openweathermap.org/"> openweathermap.org</a></p>
+    </footer>
+
+    <!--<script src="scripts/map.js"></script>--><!--CUTTING OUT MAP TO HELP WITH LOADING WEIGHT-->
+
+    <script src="scripts/homepage.js"></script>
+</body>
+
+</html>

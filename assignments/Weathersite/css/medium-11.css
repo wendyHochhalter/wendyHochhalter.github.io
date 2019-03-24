@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* { margin: 0; box-sizing: border-box; } 
+
+#content{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px #777;
+}
+ 
+
+h1, h2, h3, h4, h5, h6 {
+    color:#393E41;
+    font-family:"Montserrat", "Arial", "sans-serif";
+    display: inline-block;
+    margin: 20px auto;
+    width: 100%;
+    
+}
+header {
+	margin: 10px auto;
+	background-color: #ffffff;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+}
+
+
+.container_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.container_head img{
+    width: 17%;
+}
+
+.logotype{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", "Arial", "San-Serif";
+}
+
+.mainTitle{
+    text-align: center;
+    font-family: "Montserrat", "Arial", "San-Serif";
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hide{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: goldenrod;
+}
+
+.linking {
+    width: 75%;
+    margin: 0 auto;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.linking:hover{
+    color:goldenrod;
+}
+
+nav{
+    font-family:"Montserrat", "Arial", "sans-serif";
+    background-color: #397D96;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2em; 
+    
+}
+
+nav button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+nav a {
+    font-family:"Montserrat", "Arial", "sans-serif";
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color:#393E41;
+    background-color:#D3D0CB;
+    text-decoration: none;
+}
+
+nav .active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul.hide{
+    display: none;
+}
+nav li a {
+    display: flex;
+    flex-direction: column;
+    padding: .8rem 2%;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+li:hover{
+    color:#393E41;
+    background-color:#D3D0CB;
+    
+}
+
+li:hover a{
+    color: #000000;
+}
+
+li.active {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    padding: 0;
+}
+
+h1{
+    font-size:30px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+h2 {text-align: center; font-size: 3em;}
+
+
+
+h3, h6 {
+    font-size:20px;
+    padding: 20px;
+}
+
+/*FORMS CSS*/
+form fieldset {
+    font-family:"Montserrat", "Arial", "sans-serif";
+    display: block;
+    width: 50%;
+    border: 5px solid #397D96;
+    background: #ddd;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+fieldset label{
+    padding-top: 5%;
+
+}
+
+fieldset p{
+    font-family:"Montserrat", "Arial", "sans-serif";
+    padding-top:5%;
+    font-weight: bold;
+}
+fieldset textarea{
+    width: 40%;
+}
+
+fieldset legend {
+    font-family:"Montserrat", "Arial", "sans-serif";
+    background: #397D96;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+#slider{
+    width: 100%;
+    padding-top: 5%;
+}
+
+#rating{
+    -webkit-appearance: none;
+    width: 95%;
+    height: 15px;
+    border-radius: 5px;
+    background: #397D96;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#rating:hover{
+    opacity:1;
+}
+#rating::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  #rating::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+form input{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+fieldset select{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+#middlecontainer{
+    width: 100%;
+}
+
+
+  input[type=submit] {
+    font-family:"Montserrat", "Arial", "sans-serif";
+    width: 40%;
+    background-color: #397D96;
+    color: white;
+    font-size:2em;
+    padding: 14px 20px;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #D3D0CB;
+    color: #000000;
+  }
+
+  form input[type=submit]{
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+  }
+
+  form input[type=radio]{
+    display: inline;
+    margin-right: 10px;
+    width: 5%;
+  }
+
+
+  /*Thank you page CSS*/
+
+  .thank h2, .thank p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    font-family:"Montserrat", "Arial", "sans-serif";
+  }
+
+
+address{
+    font-family: "Montserrat", "Arial", "San-Serif";
+    padding: 20px;
+}
+
+.contain2{
+    display: flex;
+}
+
+address{
+    flex:2;
+}
+
+#map{
+    flex:1;
+}
+
+.contain2 .googlemap img{
+    width: 30%;
+}
+
+.contain2 address p {
+    font-family: "Montserrat", "Arial", "San-Serif";
+    width: 45%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+#map{
+    padding: 20px;
+}
+
+.galleryImages{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 1em;
+    align-items: center;
+    padding: 5em;
+}
+
+.galleryImages figure img{
+    width: 100%;
+    padding-top: 2em;
+}
+
+.galleryImages figure figcaption{
+    text-align: center;
+    font-weight: bold; 
+    font-family: "Montserrat", "Arial", "San-Serif";
+    
+}
+
+
+footer {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #397D96;
+    color: #ffffff;
+    line-height: 32px;
+}
+
+.footerbar{
+    font-family: "Montserrat", "Arial", "San-Serif";
+    background-color: #393E41;
+    color: #fff;
+    display: flex;
+   font-size: 0.9rem;
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
+   line-height: 32px;
+}
