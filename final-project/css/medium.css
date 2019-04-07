@@ -9,7 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: "Open Sans Condensed", sans-serif;
 }
-
 /*LOGO CSS*/
 
 .logotype {
@@ -23,7 +22,6 @@ p {
     width: 25%;
     margin: 0 auto;
     padding-top: 1.5rem;
-    align-items: center;
 }
 
 .logotype h1{
@@ -40,13 +38,8 @@ p {
 }
 
 .logotype h1{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 }
-
-.logotype p{
-    display: none;
-}
-
 /*NAVIGATION CSS*/
 
 /*nav, ul button{
@@ -112,6 +105,7 @@ ul li, ul button {
 nav ul{
     padding: 0;
 }*/
+
 /*NAVIGATION MEDIUM*/
 
 /*Strip the ul of padding and list styling*/
@@ -185,7 +179,7 @@ ul li a:hover + .hidden, .hidden:hover {
     color: #EBF5EE;
     background: #333333;
     text-align: center;
-    padding: .5rem;
+    padding: 1.5rem;
     display: none;
     margin-bottom: 2px;
 }
@@ -199,23 +193,25 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 /*Responsive Styles*/
-    /*Make dropdown links appear inline*/
-    ul {
-        position: static;
-        display: none;
-    }
-    /*Create vertical spacing*/
-    li {
-        margin-bottom: 2px;
-    }
-    /*Make all menu links full width*/
-    ul li, li a {
-        width: 100%;
-    }
-    /*Display 'show menu' link*/
-    .show-menu {
-        display:block;
-    }
+/*Make dropdown links appear inline*/
+ul {
+    position: static;
+    display: none;
+}
+/*Create vertical spacing*/
+li {
+    margin-bottom: 2px;
+}
+/*Make all menu links full width*/
+ul li, li a {
+    width: 100%;
+}
+/*Display 'show menu' link*/
+.show-menu {
+    display:block;
+}
+
+
 
 /*SLIDESHOW*/
 
@@ -241,15 +237,15 @@ a input{
     transition: all 0.5s;
     cursor: pointer;
     margin: 0 auto;
-
-   
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .book_button{
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 a input:hover {
@@ -271,7 +267,6 @@ a input:active {
 .pink{
     border: solid #D8BFAA 10px;
     color: #333333;
-    margin-top: 10%;
     width: 90%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -290,13 +285,11 @@ article h3{
     font-size: 1.8rem;
     padding-top: 1.5rem;
     color: #333333;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 article .subtitle{
     text-align: center;
-    padding-bottom: 1.5rem;
-    margin-bottom: 5%;
 }
 
 
@@ -308,7 +301,6 @@ article h4{
 }
 
 article p {
-    text-indent: 1.5em;
     padding-left: 2rem;
     padding-right: 2rem;
     text-align: justify;
@@ -353,7 +345,7 @@ address .icons{
     width: 70%;
     margin-top: 10%;
     margin-bottom: 20%;
-    margin-left: 18%;
+    margin-left: 20%;
     text-align: right;
 }
 

@@ -2,6 +2,12 @@
 
 * { margin: 0; box-sizing: border-box; } 
 
+#content{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 70px #808080;
+}
+ 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Glass Antiqua", cursive;
 }
@@ -14,71 +20,63 @@ p {
 
 .logotype {
     display: flex;
-    flex-direction: column;
-    background-color: #EBF5EE;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     
 }
 
 .logotype img{
-    width: 25%;
-    margin: 0 auto;
+    width: 15%;
     padding-top: 1.5rem;
-    align-items: center;
+    display: flex;
+    margin-bottom: 2%;
 }
 
 .logotype h1{
     width:100%;
     text-align: center;
-    line-height: 1rem;
+    font-size: 3rem;
 }
 
 .logotype p{
     width:100%;
     text-align: center;
-    line-height: 1rem;
     padding-bottom: 1.5rem;
+    font-size:1.5rem;
 }
 
-.logotype h1{
-    font-size: 1.8rem;
+.logotype div {
+    margin-top: 5%;
+    margin-left: 2%;
 }
 
-.logotype p{
+.logotype div h1 {
+    margin: 0;
+}
+
+/*Navigation*/
+
+ /*#noshow{
+     display: none;
+ }
+
+ ul ul.hide{
     display: none;
 }
 
-/*NAVIGATION CSS*/
-
-/*nav, ul button{
-    background-color: #333333;
-    color: #EBF5EE;
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 2rem; 
-    
+/*Make dropdown links vertical*/
+/*ul ul li {
+    display: block;
+    float: none;
 }
 
-nav button{
-    background-color: transparent;
-    border: none;
-    color: #EBF5EE;
-    font-size: 2rem;
-    width: 100%;
-}
-
-
-nav a, ul button {
-    font-family: "Open Sans Condensed", sans-serif;
-    color: #EBF5EE;
-    text-decoration: none;
-    font-size: 1.5rem;
-    
-}
-
-nav a:hover, ul button:hover{
-    color:#333333;
-    background-color:#EBF5EE;
-    text-decoration: none;
+/*Prevent text wrapping*/
+/*ul ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
 }
 
 .dropMenu{
@@ -86,33 +84,60 @@ nav a:hover, ul button:hover{
     border-top: 2px solid #333333;
 }
 
-/*Wayfinding nav*/
-/*nav .active a {
-    background-color: #EBF5EE;
+
+nav{
+    font-family: "Open Sans Condensed", sans-serif;
+    background-color: #333333;
+    color: #EBF5EE;
+    font-size: 1.5em;
+    line-height: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+nav a{
+    
+    color:#EBF5EE;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav button{
+    border: none;
+    background-color: #333333;
+    color: #EBF5EE;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+
+}
+
+li:hover{
+    color:#393E41;
+    background-color:#EBF5EE;
+    
+}
+
+li:hover a, ul button:hover{
     color: #333333;
 }
 
-nav ul.hide{
-    display: none;
+ul button:hover{
+    background-color: #EBF5EE;
 }
 
-nav li a, ul button {
-    display: block;
-    padding: .5rem;
-    text-align: center;
-    border-top: 2px solid #808080;
+
+li.active {
+    background-color: #82aeb1;
+    color: #333333;
 }
 
-ul li, ul button {
-    background-color: #333333;
+ul li {
     list-style: none;
-    list-style-type: none;
-}
-
-nav ul{
-    padding: 0;
+    display: inline-block;
 }*/
-/*NAVIGATION MEDIUM*/
+
+/*NAVIGATION LARGE*/
 
 /*Strip the ul of padding and list styling*/
 ul {
@@ -120,41 +145,50 @@ ul {
     margin:0;
     padding:0;
     position: absolute;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    background-color: #333333;
+    width: 90%;
+    margin: 0 auto;
 }
 /*Create a horizontal list with spacing*/
 li {
     display:inline-block;
-    float: left;
     margin-right: 1px;
 }
 /*Style for menu links*/
 li a {
     display:block;
+    width:7rem;
     height: 3rem;
     text-align: center;
     line-height: 3rem;
     font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-weight: bold;
     color: #EBF5EE;
-    background: #333333;
+    background-color: #333333;
     text-decoration: none;
+}
+
+nav li{
+  background-color: #EBF5EE;
 }
 /*Hover state for top level links*/
 li:hover a {
-    background: #EBF5EE;
-    color: #333333;
+    background-color: #EBF5EE;
+    color:#333333;
 }
 /*Style for dropdown links*/
 li:hover ul a {
-    background: #EBF5EE;
-    color: #333333;
-    height: 3rem;
-    line-height: 3rem;
-    border-top: 2px solid #333333;
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
 }
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-    background: #333333;
+    background-color: #333333;
     color: #EBF5EE;
 }
 /*Hide dropdown links until they are needed*/
@@ -163,8 +197,9 @@ li ul {
 }
 /*Make dropdown links vertical*/
 li ul li {
-    display: block;
-    float: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 /*Prevent text wrapping*/
 li ul li a {
@@ -174,20 +209,19 @@ li ul li a {
 }
 /*Display the dropdown on hover*/
 ul li a:hover + .hidden, .hidden:hover {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
+
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
     font-family: 'Open Sans Condensed', Arial, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
     text-decoration: none;
-    color: #EBF5EE;
-    background: #333333;
+    color: #fff;
+    background: #19c589;
     text-align: center;
-    padding: .5rem;
+    padding: 10px 0;
     display: none;
-    margin-bottom: 2px;
 }
 /*Hide checkbox*/
 input[type=checkbox]{
@@ -195,34 +229,25 @@ input[type=checkbox]{
 }
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
-    display: block;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    background-color: #333333;
+    width: 100%;
 }
 
-/*Responsive Styles*/
-    /*Make dropdown links appear inline*/
-    ul {
-        position: static;
-        display: none;
-    }
-    /*Create vertical spacing*/
-    li {
-        margin-bottom: 2px;
-    }
-    /*Make all menu links full width*/
-    ul li, li a {
-        width: 100%;
-    }
-    /*Display 'show menu' link*/
-    .show-menu {
-        display:block;
-    }
+.dropdown a {
+    width: 30%;
+    background: #EBF5EE;
+}
 
 /*SLIDESHOW*/
 
 .slideshow, .myslides{
 
-    width: 100%;  
-    margin-top: 5%; 
+    width: 80%;  
+    margin: 0 auto;
+    margin-top: 10%;
 }
 
 /*BOOK NOW*/
@@ -235,21 +260,19 @@ a input{
     background-color: #82AEB1;
     border: none;
     color:#333333;
-    text-align: center;
     font-size: 1.5rem;
-    width: 100%;
+    width: 80%;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 0 auto;
-
-   
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .book_button{
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
+    margin-top: 4%;
+    margin-left: 27%;
+    margin-right: 20%;
+    margin-bottom: 5%;
 }
 
 a input:hover {
@@ -271,7 +294,6 @@ a input:active {
 .pink{
     border: solid #D8BFAA 10px;
     color: #333333;
-    margin-top: 10%;
     width: 90%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -290,25 +312,22 @@ article h3{
     font-size: 1.8rem;
     padding-top: 1.5rem;
     color: #333333;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 article .subtitle{
     text-align: center;
-    padding-bottom: 1.5rem;
-    margin-bottom: 5%;
 }
 
 
 article h4{
     font-size: 1.4rem;
-    padding-top:6%;
     padding-bottom:2%;
     padding-left:2rem;
 }
 
+
 article p {
-    text-indent: 1.5em;
     padding-left: 2rem;
     padding-right: 2rem;
     text-align: justify;
@@ -319,19 +338,24 @@ article{
     background-color: #EBF5EE;
     margin-left: 5%;
     margin-right: 5%;
+    padding-bottom: 3%;
+    padding-right: 3%;
 }
 
 article img {
     
-    padding: 20px;
-    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    width: 50%;
+    float: right;
+    padding-top: 5%;
 }
 
 /*FOOTER*/
 
 .left{
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 8%;
     width: 50%;
 }
 
@@ -340,7 +364,7 @@ address p{
 }
 
 .icons{
-    width: 8%;
+    width: 5%;
 }
 
 address .icons{
@@ -350,16 +374,22 @@ address .icons{
 }
 
 .right img{
-    width: 70%;
-    margin-top: 10%;
-    margin-bottom: 20%;
-    margin-left: 18%;
-    text-align: right;
+    padding-right: 5%;
+    padding-left: 10%;
+    margin-top: 2rem;
+}
+
+.right{
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 address{
     display: inline-flex;
     width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .footerbar{

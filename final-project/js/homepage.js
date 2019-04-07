@@ -5,6 +5,12 @@ function toggleMenu(){
 
 }
 
+function toggleMenu1(){
+    
+  document.getElementById("toggle1").classList.toggle("hide");
+
+}
+
 //SLIDESHOW
 
 var index = 0;
