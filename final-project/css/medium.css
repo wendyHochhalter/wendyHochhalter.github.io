@@ -223,7 +223,7 @@ ul li, li a {
 
 /*BOOK NOW*/
 
-a input{
+button{
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: bolder;
     display: inline-block;
@@ -248,14 +248,14 @@ a input{
     margin-bottom: 5%;
 }
 
-a input:hover {
+button:hover {
     background-color: #333333;
     color: #EBF5EE;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
-a input:active {
+button:active {
   background-color:#333333;
   color: #EBF5EE;
   box-shadow: 0 5px #666;

@@ -1,0 +1,150 @@
+{
+    "temples": [
+        {
+            "name": "Manhattan, NY",
+            "address": "125 Columbus Ave. New York, NY",
+            "telephone": "(917)441-8220",
+            "email": "manhattantemple@lds.org",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "7 Aug 2002: Announced",
+                "23 Sep 2002: Groundbreaking",
+                "13 June 2004: Dedicated"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: Tuesday - Saturday",
+                "Initiatory: Tuesday - Saturday",
+                "Sealing: Tuesday - Saturday",
+                "Endowment: Tuesday - Saturday",
+                "Call for more info"
+            ],
+            "endowmentSchedule": "To schedule living ordinances (such as own endowments or sealing) or group visits, please call: (1)917-441-8220",
+            "templeClosure":[
+                "Thursday, 4 July 2019",
+                "Tuesday, 23 July 2019 - Monday, 28 October 2019",
+                "Wednesday, 27 November 2019",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        },
+
+        {
+            "name": "Chicago, IL",
+            "address": "4151 W Lake Ave. Glenview, IL",
+            "telephone": "(847)299-6500",
+            "email": "chicagotemple@lds.org",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "1 Apr 1981: Announced",
+                "13 Aug 1983: Groundbreaking",
+                "9 Aug 1985: Dedicated",
+                "8 October 1989: Rededicated"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: Tuesday - Saturday",
+                "Initiatory: Tuesday - Saturday",
+                "Sealing: Tuesday - Saturday",
+                "Endowment: Tuesday - Saturday",
+                "Call for more info"
+            ],
+            "endowmentSchedule": "To schedule living ordinances (such as own endowments or sealing) or group visits, please call: (1)847-299-6500",
+            "templeClosure":[
+                "Sunday, 23 June 2019 - Monday, 2 September 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        },
+        {
+            "name": "Laie, HI",
+            "address": "55-600 Naniloa Loop. Laie HI",
+            "telephone": "(808)293-2427",
+            "email": "laietemple@lds.org",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "3 Oct 1915: Announced",
+                "8 Feb 1916: Groundbreaking",
+                "27 Nov 1919: Dedicated",
+                "13 June 1978: Rededicated",
+                "21 Nov 2010: Rededicated"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: Tuesday - Saturday",
+                "Initiatory: Tuesday - Saturday",
+                "Sealing: Tuesday - Saturday",
+                "Endowment: Tuesday - Saturday",
+                "Call for more info"
+            ],
+            "endowmentSchedule": "To schedule living ordinances (such as own endowments or sealing) or group visits, please call: (1)808-293-2427",
+            "templeClosure":[
+                "Friday, 28 June 2019 (Limited Hours)",
+                "Saturday, 29 June 2019 (Limited Hours)",
+                "Monday, July 1 2019 - Monday, 15 July 2019",
+                "Friday, 4 October 2019 (Limited Hours)",
+                "Saturday, October 5 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Friday, 27 December 2019 (Limited Hours)",
+                "Saturday, 28 December 2019 (Limited Hours)",
+                "Monday, 30 December 2019 - Monday, 13 January 2020"
+            ]
+        },
+        {
+            "name": "Phoenix, AZ",
+            "address": "5220 W Pinnacle Peak Rd. Phoenix, AZ",
+            "telephone": "(623)474-9500",
+            "email": "phoenixtemple@lds.org",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "history": [
+                "9 May 2008: Announced",
+                "4 June 2011: Groundbreaking",
+                "16 Nov 2014: Dedicated"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: Tuesday - Saturday",
+                "Initiatory: Tuesday - Saturday",
+                "Sealing: Tuesday - Saturday",
+                "Endowment: Tuesday - Saturday",
+                "Call for more info"
+            ],
+            "endowmentSchedule": "To schedule living ordinances (such as own endowments or sealing) or group visits, please call: (1)623-474-9500",
+            "templeClosure":[
+                "Monday, 13 May 2019 - Monday, 27 May 2019)",
+                "Thursday, July 4 2019",
+                "Saturday, October 5 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Monday, 2 December 2019 - Monday, 16 December 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019"
+            ]
+        }
+    ]
+}
