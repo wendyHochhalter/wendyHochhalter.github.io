@@ -2,7 +2,7 @@
 <html lang="en-us">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
-<title>Temple Inn & Suites | Manhattan</title>
+<title>Temple Inn & Suites | Chicago</title>
 <meta name="description" content="Temple Inn & Suites Home Page">
 <meta name="keywords" content="The Church of Jesus Christ of Latter-Day Saints, Temples, Vacation, Mormons, Hotel, Sealing, Ordinances, NY Temple, Hawaii Temple, Arizona Temple, Chicago Temple">
 <link rel="stylesheet" href="css/normalize.css">
@@ -57,21 +57,39 @@
         
         <main>
             
-            <article class="templeinfo">
+            <article>
                 
-                <h1>The Manhattan, NY Temple</h1>
+                <h1>The Chicago, IL Temple</h1>
                 
                 <div>
                     
                     <picture class="featured">
-                        <source media="(max-width: 650px)" srcset="images/mahattan650w.jpg">
-                            <source media="(max-width: 900px)" srcset="images/mahattan900.jpg">
-                                <source media="(min-width: 1200px)" srcset="images/mahattan.jpg">
-                                    <img src="images/mahattan.jpg" alt="Manhattan, NY Temple">
+                        <source media="(max-width: 650px)" srcset="images/chicago650w.jpg">
+                            <source media="(max-width: 900px)" srcset="images/chicago900w.jpg">
+                                <source media="(min-width: 1200px)" srcset="images/chicago1200w.jpg">
+                                    <img src="images/chicago1200w.jpg" alt="Chicago, IL Temple">
                                 </picture>
+                                
+                                <aside>
+                                    <div class="summary" >
+                                        <h3>Current Weather</h3>
+                                        <div class="current">
+                                            <p><strong>Currently: </strong><span id="summary1"></span></p>
+                                            <p><strong>Temperature: </strong> <span id="summary2"></span>°F</p>
+                                            <p><strong>Humidity: </strong> <span id="summary4"></span>%</p>
+                                            <p><strong>Wind Speed: </strong> <span id="summary5"></span>mph</p>
+                                            <p><strong>Wind Direction: </strong> <span id="summary6"></span></p>
+                                            <p><strong>Wind Chill: </strong> <span id="summary3"></span>°F</p>
+                                        </div>
+                                    </div>
+                                </aside>
                                 
                             </div>
                             
+                        </article>
+
+                        <article class="templeinfo">
+
                         </article>
                         
                     </main>
@@ -106,7 +124,7 @@
                     
                 </div> <!--Closure of First content div-->
                 
-                <script src="js/manhattan.js"></script>
+                <script src="js/chicago.js"></script>
                 
             </body>
             </html>

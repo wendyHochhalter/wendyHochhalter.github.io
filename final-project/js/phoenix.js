@@ -50,7 +50,7 @@ function showTempleInfo(jsonObj){
 
     for (templesindex = 0; templesindex < temples.length; templesindex++){
 
-        if (temples[templesindex].name == "Manhattan, NY")
+        if (temples[templesindex].name == "Phoenix, AZ")
         populateTempleInfo(temples[templesindex]);
 
 

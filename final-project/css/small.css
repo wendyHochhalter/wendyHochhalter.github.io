@@ -112,7 +112,13 @@ ul li, ul button {
 nav ul{
     padding: 0;
 }*/
-/*NAVIGATION MEDIUM*/
+/*NAVIGATION SMALL*/
+
+/*Wayfinding nav*/
+nav .active a {
+    background-color: #EBF5EE;
+    color: #333333;
+}
 
 /*Strip the ul of padding and list styling*/
 ul {
@@ -215,6 +221,10 @@ input[type=checkbox]:checked ~ #menu{
     /*Display 'show menu' link*/
     .show-menu {
         display:block;
+    }
+
+    nav{
+        margin-bottom: 4%;
     }
 
 /*SLIDESHOW*/
@@ -390,4 +400,43 @@ color: #333333;
 
 .link1:hover{
     color: #82AEB1;
+}
+
+/*FEATURED TEMPLE IMG IN TEMPLE PAGES*/
+
+article h1{
+    border: solid #D8BFAA 10px;
+    color: #333333;
+    width: 90%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+article div img{
+    width: 70%;
+    display: inline-flex;
+    margin-left: 15%;
+    margin-right: 12%;
+    
+}
+
+article h2{
+    margin-bottom: 10%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.templeinfo p{
+    font-size: 1.2em;
+    text-indent: 0%;
+}
+
+article{
+    padding-top:2%;
 }
