@@ -165,6 +165,7 @@ li a {
     text-align: center;
     line-height: 3rem;
     font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-size: 1.5em;
     font-weight: bold;
     color: #EBF5EE;
     background-color: #333333;
@@ -241,6 +242,10 @@ input[type=checkbox]:checked ~ #menu{
     background: #EBF5EE;
 }
 
+nav{
+    margin-bottom: 10%;
+}
+
 /*SLIDESHOW*/
 
 .slideshow, .myslides{
@@ -299,6 +304,7 @@ button:active {
     padding-bottom: 1.5rem;
     display: block;
     margin: 0 auto;
+    margin-bottom: 3%;
 }
 
 section h2 {
@@ -338,11 +344,10 @@ article{
     background-color: #EBF5EE;
     margin-left: 5%;
     margin-right: 5%;
-    padding-bottom: 3%;
-    padding-right: 3%;
+    padding: 3%;
 }
 
-article img {
+section article img {
     
     padding-left: 15px;
     padding-bottom: 5px;
@@ -420,4 +425,36 @@ color: #333333;
 
 .link1:hover{
     color: #82AEB1;
+}
+
+/*FEATURED TEMPLE IMG IN TEMPLE PAGES*/
+
+article h1{
+    border: solid #D8BFAA 10px;
+    color: #333333;
+    width: 90%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+article div img{
+    width: 50%;
+    display: inline-flex;
+    margin-left: 25%;
+    margin-right: 15%;
+    
+}
+
+article h2{
+    margin-bottom: 4%;
+    font-size: 2em;
+}
+
+.templeinfo p{
+    font-size: 1.5em;
 }
