@@ -46,7 +46,7 @@ function populateTempleInfo(jsonObj){
     var temple = jsonObj;
 
     var templeArticle = document.createElement("article");
-    var templeH2 = document.createElement("h2");
+    var infoH2 = document.createElement("h2");
     var para1 = document.createElement("p");
     var para2 = document.createElement("p");
     var para3 = document.createElement("p");
@@ -57,7 +57,7 @@ function populateTempleInfo(jsonObj){
     var para8 = document.createElement("p");
  
 
-    templeH2.textContent = temple.name;
+    infoH2.textContent = temple.information;
     para1.textContent = "Address: " + temple.address;
     para2.textContent = "Telephone: " + temple.telephone;
     para3.textContent = "Email: " + temple.email;

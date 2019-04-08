@@ -2,6 +2,7 @@
     "temples": [
         {
             "name": "Manhattan, NY",
+            "information": "Temple Information",
             "address": "125 Columbus Ave. New York, NY",
             "telephone": "(917)441-8220",
             "email": "manhattantemple@lds.org",
@@ -17,14 +18,12 @@
                 " 13 June 2004: Dedicated"
             ],
             "ordinanceSchedule":[
-                "Tuesday - Saturday:",
                 " 10:45am - 11:45am",
                 " 2:15pm - 3:15pm",
                 " 4:00pm - 4:30pm",
                 " 6:00pm - 7:30pm"
             ],
             "endowmentSchedule":[
-                "Schedule for Endowment Sessions on Tuesday:",
                 " 11:00am",
                 " 12:30pm",
                 " 2:00pm",
@@ -32,13 +31,13 @@
                 " 7:45pm"
             ],
             "templeClosure":[
-                "Thursday, 4 July 2019",
-                " Tuesday, 23 July 2019 - Monday, 28 October 2019",
-                " Wednesday, 27 November 2019",
-                " Thursday, 28 November 2019",
-                " Tuesday, 24 December 2019",
-                " Wednesday, 25 December 2019",
-                " Tuesday, 31 December 2019"
+                "Thursday 4 July 2019",
+                " Tuesday 23 July 2019 - Monday, 28 October 2019",
+                " Wednesday 27 November 2019",
+                " Thursday 28 November 2019",
+                " Tuesday 24 December 2019",
+                " Wednesday 25 December 2019",
+                " Tuesday 31 December 2019"
             ]
         },
 
@@ -48,45 +47,41 @@
             "telephone": "(847)299-6500",
             "email": "chicagotemple@lds.org",
             "services": [
-                "No clothing rental available",
-                "No cafeteria available",
-                "No patron housing available",
-                "Distribution center nearby"
+                " No clothing rental available",
+                " No cafeteria available",
+                " No patron housing available",
+                " Distribution center nearby"
             ],
             "history": [
                 "1 Apr 1981: Announced",
-                "13 Aug 1983: Groundbreaking",
-                "9 Aug 1985: Dedicated",
-                "8 October 1989: Rededicated"
+                " 13 Aug 1983: Groundbreaking",
+                " 9 Aug 1985: Dedicated",
+                " 8 October 1989: Rededicated"
             ],
             "ordinanceSchedule":[
-                "The Temple is open Tuesday - Saturday",
-                "Baptisms Schedule for Tuesday",
-                "8:30am - 6:30pm",
-                "6:30pm - 9:00pm"
+                " 8:30am - 6:30pm",
+                " 6:30pm - 9:00pm"
             ],
             "endowmentSchedule": [
-                "To schedule living ordinances (such as own endowments or sealing) or group visits, please call: (1)917-441-8220",
-                "Schedule for Endowment Sessions on Tuesday",
-                "9:00am",
-                "10:00am",
-                "11:00am",
-                "12:00pm",
-                "1:00pm",
-                "2:00pm",
-                "3:00pm",
-                "4:00pm",
-                "5:00pm",
-                "6:00pm"
+                " 9:00am",
+                " 10:00am",
+                " 11:00am",
+                " 12:00pm",
+                " 1:00pm",
+                " 2:00pm",
+                " 3:00pm",
+                " 4:00pm",
+                " 5:00pm",
+                " 6:00pm"
             ],
             "templeClosure":[
                 "Sunday, 23 June 2019 - Monday, 2 September 2019",
-                "Saturday, 5 October 2019",
-                "Wednesday, 27 November 2019 (Limited Hours)",
-                "Thursday, 28 November 2019",
-                "Tuesday, 24 December 2019",
-                "Wednesday, 25 December 2019",
-                "Tuesday, 31 December 2019"
+                " Saturday, 5 October 2019",
+                " Wednesday, 27 November 2019 (Limited Hours)",
+                " Thursday, 28 November 2019",
+                " Tuesday, 24 December 2019",
+                " Wednesday, 25 December 2019",
+                " Tuesday, 31 December 2019"
             ]
         },
         {
@@ -95,57 +90,53 @@
             "telephone": "(808)293-2427",
             "email": "laietemple@lds.org",
             "services": [
-                "Clothing rental available",
-                "Cafeteria available",
-                "No patron housing available",
-                "Distribution center nearby"
+                " Clothing rental available",
+                " Cafeteria available",
+                " No patron housing available",
+                " Distribution center nearby"
             ],
             "history": [
                 "3 Oct 1915: Announced",
-                "8 Feb 1916: Groundbreaking",
-                "27 Nov 1919: Dedicated",
-                "13 June 1978: Rededicated",
-                "21 Nov 2010: Rededicated"
+                " 8 Feb 1916: Groundbreaking",
+                " 27 Nov 1919: Dedicated",
+                " 13 June 1978: Rededicated",
+                " 21 Nov 2010: Rededicated"
             ],
             "ordinanceSchedule":[
-                "The Temple is open Tuesday - Saturday",
-                "Baptisms Schedule for Tuesday",
-                "7:00am - 9:00am",
-                "2:00pm - 4:00pm",
-                "5:30pm - 6:30pm",
-                "7:00pm - 8:00pm"
+                " 7:00am - 9:00am",
+                " 2:00pm - 4:00pm",
+                " 5:30pm - 6:30pm",
+                " 7:00pm - 8:00pm"
             ],
             "endowmentSchedule":[
-                "To schedule living ordinances (such as own endowments or sealing) or group visits, please call: (1)917-441-8220",
-                "Schedule for Endowment Sessions on Tuesday",
-                "7:00am",
-                "8:00am",
-                "9:00am",
-                "10:00am",
-                "11:00am",
-                "12:00pm",
-                "1:00pm",
-                "2:00pm",
-                "3:00pm",
-                "4:00pm",
-                "5:00pm",
-                "6:00pm",
-                "7:00pm",
-                "8:00pm"
+                " 7:00am",
+                " 8:00am",
+                " 9:00am",
+                " 10:00am",
+                " 11:00am",
+                " 12:00pm",
+                " 1:00pm",
+                " 2:00pm",
+                " 3:00pm",
+                " 4:00pm",
+                " 5:00pm",
+                " 6:00pm",
+                " 7:00pm",
+                " 8:00pm"
             ],
             "templeClosure":[
                 "Friday, 28 June 2019 (Limited Hours)",
-                "Saturday, 29 June 2019 (Limited Hours)",
-                "Monday, July 1 2019 - Monday, 15 July 2019",
-                "Friday, 4 October 2019 (Limited Hours)",
-                "Saturday, October 5 2019",
-                "Wednesday, 27 November 2019 (Limited Hours)",
-                "Thursday, 28 November 2019",
-                "Tuesday, 24 December 2019",
-                "Wednesday, 25 December 2019",
-                "Friday, 27 December 2019 (Limited Hours)",
-                "Saturday, 28 December 2019 (Limited Hours)",
-                "Monday, 30 December 2019 - Monday, 13 January 2020"
+                " Saturday, 29 June 2019 (Limited Hours)",
+                " Monday, July 1 2019 - Monday, 15 July 2019",
+                " Friday, 4 October 2019 (Limited Hours)",
+                " Saturday, October 5 2019",
+                " Wednesday, 27 November 2019 (Limited Hours)",
+                " Thursday, 28 November 2019",
+                " Tuesday, 24 December 2019",
+                " Wednesday, 25 December 2019",
+                " Friday, 27 December 2019 (Limited Hours)",
+                " Saturday, 28 December 2019 (Limited Hours)",
+                " Monday, 30 December 2019 - Monday, 13 January 2020"
             ]
         },
         {
@@ -154,43 +145,39 @@
             "telephone": "(623)474-9500",
             "email": "phoenixtemple@lds.org",
             "services": [
-                "No clothing rental available",
-                "No cafeteria available",
-                "No patron housing available",
-                "No distribution center nearby"
+                " No clothing rental available",
+                " No cafeteria available",
+                " No patron housing available",
+                " No distribution center nearby"
             ],
             "history": [
                 "9 May 2008: Announced",
-                "4 June 2011: Groundbreaking",
-                "16 Nov 2014: Dedicated"
+                " 4 June 2011: Groundbreaking",
+                " 16 Nov 2014: Dedicated"
             ],
             "ordinanceSchedule":[
-                "The Temple is open Tuesday - Saturday",
-                "Baptisms Schedule for Tuesday",
-                "7:00am - 11:30am",
-                "4:00pm - 8:00pm"
+                " 7:00am - 11:30am",
+                " 4:00pm - 8:00pm"
             ],
             "endowmentSchedule":[
-                "To schedule living ordinances (such as own endowments or sealing) or group visits, please call: (1)917-441-8220",
-                "Schedule for Endowment Sessions on Tuesday",
-                "7:30am",
-                "8:30am",
-                "9:30am",
-                "10:30am",
-                "4:30pm",
-                "5:30pm",
-                "6:30pm",
-                "7:30pm"
+                " 7:30am",
+                " 8:30am",
+                " 9:30am",
+                " 10:30am",
+                " 4:30pm",
+                " 5:30pm",
+                " 6:30pm",
+                " 7:30pm"
             ],
             "templeClosure":[
                 "Monday, 13 May 2019 - Monday, 27 May 2019)",
-                "Thursday, July 4 2019",
-                "Saturday, October 5 2019",
-                "Wednesday, 27 November 2019 (Limited Hours)",
-                "Thursday, 28 November 2019",
-                "Monday, 2 December 2019 - Monday, 16 December 2019",
-                "Tuesday, 24 December 2019",
-                "Wednesday, 25 December 2019"
+                " Thursday, July 4 2019",
+                " Saturday, October 5 2019",
+                " Wednesday, 27 November 2019 (Limited Hours)",
+                " Thursday, 28 November 2019",
+                " Monday, 2 December 2019 - Monday, 16 December 2019",
+                " Tuesday, 24 December 2019",
+                " Wednesday, 25 December 2019"
             ]
         }
     ]
