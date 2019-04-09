@@ -408,6 +408,7 @@ article h1{
     margin-bottom: 3%;
     text-align: center;
     font-size: 3rem;
+    background-color: #fff;
 }
 
 article div img{
@@ -429,4 +430,136 @@ article h2{
 
 article{
     padding-top:2%;
+}
+
+.summary h3{
+    font-size: 2em;
+    padding-bottom: 3%;
+}
+
+.summary{
+    text-align: center;
+}
+
+div .current{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35%;
+    border: 4px solid #82aeb1;
+    font-size: .7em;
+    color: #333333;
+    padding-top: 1.2em;
+    background-color: #fff;
+}
+
+/*FORMS MEDIUM*/
+
+fieldset {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+form{
+    background-color: #EBF5EE;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+fieldset legend{
+    font-family: "Glass Antiqua", cursive;
+    font-size: 1.5em;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+form input{
+    width: 100%;
+}
+
+form select{
+    width: 100%;
+}
+
+form textarea{
+    width: 100%;
+}
+
+.personal{
+    margin-top: 10%;
+    border: 4px solid #D8BFAA;
+}
+
+.accomodations{
+    border: 4px solid #D8BFAA;
+}
+
+.comments{
+    border: 4px solid #D8BFAA;
+}
+
+form input[type=submit]{
+
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+    border-radius: 5rem;
+    background-color: #82AEB1;
+    border: none;
+    color:#333333;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+form input[type=submit]:hover {
+    background-color: #333333;
+    color: #EBF5EE;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+form input[type=submit]:active {
+  background-color:#333333;
+  color: #EBF5EE;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*THANK YOU*/
+
+.thankyou{
+    background-color: #EBF5EE;
+}
+
+.thankyou h1{
+    padding-top: 20%;
+    font-size: 4em;
+    text-align: center;
+}
+
+.thankyou p{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.thankyou p:nth-child(4){
+padding-bottom: 20%;
 }

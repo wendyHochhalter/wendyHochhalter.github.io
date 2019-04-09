@@ -100,3 +100,76 @@ function populateTempleInfo(jsonObj){
 
 
 }
+
+//WEATHER SUMMARY
+let weatherRequest = new XMLHttpRequest();
+
+let apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=5308655&units=imperial&APPID=5a2cf03763628f501603892cdc61ae1d"
+weatherRequest.open("get", apiURLstring, true);
+weatherRequest.send();
+
+weatherRequest.onload = function(){
+
+    let weatherSummary = JSON.parse(weatherRequest.responseText);
+
+    console.log(weatherSummary);
+
+    document.getElementById("summary1").innerHTML = weatherSummary.weather[0].description;
+    document.getElementById("summary2").innerHTML = weatherSummary.main.temp;
+    document.getElementById("summary4").innerHTML = weatherSummary.main.humidity;
+    document.getElementById("summary5").innerHTML = weatherSummary.wind.speed;
+
+// WINDCHILL
+
+var temp = parseInt(document.getElementById('summary2').innerHTML);
+var speed = parseInt(document.getElementById('summary5').innerHTML);
+
+var windChill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+
+windChill = Math.round(windChill);
+document.getElementById("summary3").innerHTML = windChill;
+
+// WIND DIRECTION
+
+/*Define variables*/
+
+let d = [weatherSummary.wind.deg];
+let dir = "";
+
+/*Convert degrees to direction*/
+
+if ((d >= 337 && d <= 360) || (d >=0 && d <= 22)) {
+dir ="north";
+}
+
+else if (d >= 23 && d <= 67) {
+dir ="northeast";
+}
+
+else if (d >= 68 && d <= 112) {
+dir ="east";
+}
+
+else if (d >= 113 && d <= 157) {
+dir ="southeast";
+}
+
+else if (d >= 158 && d <= 202) {
+dir ="south";
+}
+
+else if (d >= 203 && d <= 246) {
+dir ="southwest";
+}
+
+else if (d >= 247 && d <= 290) {
+dir ="west";
+}
+
+else dir = "northwest"
+
+/*Define span id of 'direction' and get element from variable 'dir'*/
+
+document.getElementById("summary6").textContent=dir;
+
+}
