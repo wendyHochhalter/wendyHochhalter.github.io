@@ -608,3 +608,39 @@ form input[type=submit]:active {
   transform: translateY(4px);
 }
 
+/*SERVICES*/
+
+.serviceTitle h1{
+    text-align: center;
+    border: solid #D8BFAA 10px;
+    background-color: #ffffff;
+    margin: 3%;
+    font-size: 3em;
+    padding: 3%;
+}
+
+.serviceList{
+    background-color: #EBF5EE;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 3%;
+    font-size: 1.3em;
+}
+
+.serviceList .justify{
+    text-align: justify;
+    padding-top:3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.specialized{
+    font-weight: bold;
+    margin-top:5%;
+   
+}
+
+.serviceList p {
+    padding: 2%;
+}
+ 

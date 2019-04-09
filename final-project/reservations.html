@@ -142,7 +142,7 @@
                         <br>
                         <label for="country">Country*</label>
                         <select id="country" name="countryList" required>
-                                <option selected disabled=disabled>Select your Country</option> 
+                                <option selected disabled=disabled value="">Select your Country</option> 
                                 <option value="AF">Afghanistan</option>
                                 <option value="AX">Åland Islands</option>
                                 <option value="AL">Albania</option>
@@ -400,8 +400,8 @@
 
                             <legend>Acommodation Information</legend>
                             <label for="location">Location*</label>
-                            <select type="text" id="location" name="locationList" required>
-                                    <option selected disabled=disabled>Select One...</option> 
+                            <select id="location" name="locationList" required>
+                                    <option selected disabled=disabled value="">Select One...</option> 
                                     <option value="arizona">Phoenix, Arizona</option>
                                     <option value="hawaii">Laie, Hawaii</option>
                                     <option value="illinois">Chicago, Illinois</option>
@@ -432,16 +432,17 @@
                             <br>
 
                             <label for="typerooms">Type of Room*</label>
-                            <select type="text" id="typerooms" name="trooms" required>
-                                    <option selected disabled=disabled>Select One...</option> 
+                            <select id="typerooms" name="trooms" required>
+                                    <option selected disabled=disabled value="">Select One...</option> 
                                     <option value="single">Single</option>
                                     <option value="double">Double</option>
                                     <option value="suite">Suite</option>
+                                    <option value="ksuite">Kitchenette Suite</option>
                                     <option value="msuite">Master Suite</option>
                             </select>
                         </fieldset>
                         <fieldset class="comments">
-                                <legend>Additional Comments</legend> 
+                                <legend>Special Accomodations or Additional Comments</legend> 
                                 <label for="acomments"></label>
                                 <textarea style="width:100%" rows=5 name="comments" id="acomments">
                                 </textarea>
