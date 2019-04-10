@@ -581,6 +581,7 @@ padding-bottom: 20%;
     margin-right: 3%;
     padding-bottom: 3%;
     font-size: 1.3em;
+    line-height: 2em;
 }
 
 .serviceList .justify{
@@ -598,4 +599,43 @@ padding-bottom: 20%;
 
 .serviceList p {
     padding: 2%;
+}
+
+/*RECEPTION PICTURES*/
+
+
+.receptions{
+    background-color: #EBF5EE;
+    margin: 3%;
+}
+
+.receptions p{
+    text-align: justify;
+    padding-top:3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+    
+.receptions h3{
+    font-weight: bold;
+    padding-left: 3%;
+    padding-top: 5%;
+
+}
+
+.gallery{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 1em;
+    align-items: center;
+    padding: 3em;
+}
+
+.gallery figure img{
+    width: 100%;
 }
