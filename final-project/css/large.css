@@ -492,7 +492,7 @@ div .current{
     padding-bottom: 2%;
 }
 
-/*FORMS SMALL*/
+/*FORMS LARGE*/
 
 fieldset {
     font-family: "Open Sans Condensed", sans-serif;
@@ -608,6 +608,9 @@ form input[type=submit]:active {
   transform: translateY(4px);
 }
 
+
+
+
 /*SERVICES*/
 
 .serviceTitle h1{
@@ -684,3 +687,53 @@ form input[type=submit]:active {
 .gallery figure img{
     width: 100%;
 }
+
+/*FULL TIME MISSIONARIES*/
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .container {
+    position: relative;
+    display: none;
+  }
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  #imgtext, #expandedImg{
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: bold;
+  }

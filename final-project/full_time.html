@@ -56,9 +56,61 @@
         </header>
         
         <main>
-            
-        </main>
+            <div class="serviceTitle">
+                <h1> Full-Time Missionaries</h1>
+            </div>
+            <div class="receptions">
+                <p>At the Temple Inn & Suites we care to provide the best accommodations for full-time missionaries who come serve the Temple. We offer long stay options for those who need temporary housing while serving the Lord. The best service for the best kind of service. Take a look below at our long-term stay suites, we guarantee you're gonna feel right at home!</p>
+                
+                <p>Click on the images below to enlarge them:</p>
+                
+                <div class="row">
+                    <div class="column">
+                        <img src="images/mastersuite300.jpg" alt="Master Suite Bedroom" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="images/kitchenette300.jpg" alt="Kitchenette Suite Main Area" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="images/double1300.jpg" alt="Suite Bedroom" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="images/flatscreen1300.jpg" alt="Suite Living Room" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                </div>
+                <div class="container">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" style="width:100%">
+                    <div id="imgtext"></div>
+                </div>
+                
+                <p class="specialized">Suite</p>
+                <p>Enjoy the cozyness of our suites. With an oversized bedroom and ample living space you will feel as if you never left home.</p>
+                <p class="specialized"> Kitchenette Suite</p>
+                <p>Our kitchenette Suites come equipped with a full purpose kitchenette. Which will make cooking and reheating meals an easy task. This will help you be mindful of what you're eating and save money!</p>
+                <p class="specialized"> Master Suite</p>
+                <p>Our Master Suites are the best of both worlds. These special rooms come equipped with ample space. Two king sized bedrooms and a nice living area you could use to entertain your guests. Also a master bathroom with tub and shower. Have your own kitchenette as well as your own washer and dryer. Who said you were living away for a couple years? This feels just like home!</p>
+                <br><br>
+                <p> <strong>Like what you're seeing? Contact us for more details:</strong></p>
         
+            <form action="thanks.html" target="_blank" method="GET">
+                <fieldset class="personal">
+                    <legend>Personal Information</legend>
+                    <label for="name">Full name*</label>
+                    <input type="text" id="name" name="fullname" required pattern="[a-zA-Z\s]{5,}" placeholder="John Doe">
+                    <br>
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" name="email" placeholder="myaddress@mymail.com">
+                    <br>
+                    <legend>Comments or Questions</legend> 
+                    <label for="acomments"></label>
+                    <textarea style="width:100%" rows=5 name="comments" id="acomments">
+                    </textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            </main>
+            
         <footer>
             <address>
                 <div class="left">
@@ -89,7 +141,7 @@
         
     </div> <!--Closure of First content div-->
 
-    <script src="js/homepage.js"></script>
+    <script src="js/full-time.js"></script>
     
 </body>
 </html>

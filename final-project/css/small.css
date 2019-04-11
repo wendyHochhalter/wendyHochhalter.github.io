@@ -533,6 +533,7 @@ form input[type=submit]{
     transition: all 0.5s;
     cursor: pointer;
     margin: 0 auto;
+    margin-top:5%;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -646,3 +647,53 @@ padding-bottom: 20%;
     width: 100%;
     padding-top: 2em;
 }
+/*FULL TIME MISSIONARIES*/
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .container {
+    position: relative;
+    display: none;
+  }
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  #imgtext, #expandedImg{
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: bold;
+  }
+  
