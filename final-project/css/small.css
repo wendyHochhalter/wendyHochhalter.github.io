@@ -697,3 +697,26 @@ padding-bottom: 20%;
       font-weight: bold;
   }
   
+  .contact{
+
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .contact img{
+      width: 80%;
+      margin-left: 8%;
+      margin-top: 8%;
+  }
+
+  .contact p {
+      font-style: oblique;
+  }
+
+ .para{
+     padding-top: 5%;
+ }

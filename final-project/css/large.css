@@ -737,3 +737,20 @@ form input[type=submit]:active {
       font-family: "Open Sans Condensed", sans-serif;
       font-weight: bold;
   }
+
+  /*CONTACT*/
+
+  .contact{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+ .para{
+     padding-top: 5%;
+ }
+      
