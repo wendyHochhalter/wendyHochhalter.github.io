@@ -14,9 +14,7 @@ p {
 
 .logotype {
     display: flex;
-    flex-direction: column;
-    background-color: #EBF5EE;
-    
+    flex-direction: column;   
 }
 
 .logotype img{
@@ -47,71 +45,6 @@ p {
     display: none;
 }
 
-/*NAVIGATION CSS*/
-
-/*nav, ul button{
-    background-color: #333333;
-    color: #EBF5EE;
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 2rem; 
-    
-}
-
-nav button{
-    background-color: transparent;
-    border: none;
-    color: #EBF5EE;
-    font-size: 2rem;
-    width: 100%;
-}
-
-
-nav a, ul button {
-    font-family: "Open Sans Condensed", sans-serif;
-    color: #EBF5EE;
-    text-decoration: none;
-    font-size: 1.5rem;
-    
-}
-
-nav a:hover, ul button:hover{
-    color:#333333;
-    background-color:#EBF5EE;
-    text-decoration: none;
-}
-
-.dropMenu{
-    background-color: #808080;
-    border-top: 2px solid #333333;
-}
-
-/*Wayfinding nav*/
-/*nav .active a {
-    background-color: #EBF5EE;
-    color: #333333;
-}
-
-nav ul.hide{
-    display: none;
-}
-
-nav li a, ul button {
-    display: block;
-    padding: .5rem;
-    text-align: center;
-    border-top: 2px solid #808080;
-}
-
-ul li, ul button {
-    background-color: #333333;
-    list-style: none;
-    list-style-type: none;
-}
-
-nav ul{
-    padding: 0;
-}*/
 /*NAVIGATION SMALL*/
 
 /*Wayfinding nav*/
@@ -720,3 +653,10 @@ padding-bottom: 20%;
  .para{
      padding-top: 5%;
  }
+
+ /*TEMPLES*/
+
+.temples{
+    display: flex;
+    justify-content: center;
+}

@@ -56,86 +56,6 @@ p {
     margin: 0;
 }
 
-/*Navigation*/
-
- /*#noshow{
-     display: none;
- }
-
- ul ul.hide{
-    display: none;
-}
-
-/*Make dropdown links vertical*/
-/*ul ul li {
-    display: block;
-    float: none;
-}
-
-/*Prevent text wrapping*/
-/*ul ul li a {
-    width: auto;
-    min-width: 100px;
-    padding: 0 20px;
-}
-
-.dropMenu{
-    background-color: #808080;
-    border-top: 2px solid #333333;
-}
-
-
-nav{
-    font-family: "Open Sans Condensed", sans-serif;
-    background-color: #333333;
-    color: #EBF5EE;
-    font-size: 1.5em;
-    line-height: 3em;
-    font-weight: bold;
-    text-align: center;
-}
-
-
-nav a{
-    
-    color:#EBF5EE;
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav button{
-    border: none;
-    background-color: #333333;
-    color: #EBF5EE;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-weight: bold;
-
-}
-
-li:hover{
-    color:#393E41;
-    background-color:#EBF5EE;
-    
-}
-
-li:hover a, ul button:hover{
-    color: #333333;
-}
-
-ul button:hover{
-    background-color: #EBF5EE;
-}
-
-
-li.active {
-    background-color: #82aeb1;
-    color: #333333;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-}*/
 
 /*NAVIGATION LARGE*/
 
@@ -753,4 +673,11 @@ form input[type=submit]:active {
  .para{
      padding-top: 5%;
  }
-      
+
+/*TEMPLES*/
+
+.temples{
+    display: flex;
+    justify-content: center;
+}
+
