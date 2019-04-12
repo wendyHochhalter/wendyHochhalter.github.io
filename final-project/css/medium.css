@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
 }
 /*LOGO CSS*/
 
@@ -167,7 +167,7 @@ nav{
 /*BOOK NOW*/
 
 button{
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-weight: bolder;
     display: inline-block;
     border-radius: 5rem;
@@ -353,8 +353,18 @@ article div img{
 }
 
 article h2{
-    margin-bottom: 4%;
-    font-size: 2em;
+    border: solid #D8BFAA 10px;
+    background-color: #fff;
+    color: #333333;
+    width: 90%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .templeinfo p{
@@ -389,7 +399,7 @@ div .current{
 /*FORMS MEDIUM*/
 
 fieldset {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
 }
 
 form{
@@ -443,7 +453,7 @@ form textarea{
 
 form input[type=submit]{
 
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-weight: bolder;
     display: inline-block;
     border-radius: 5rem;
@@ -482,7 +492,7 @@ form input[type=submit]:active {
     background-color: #EBF5EE;
 }
 
-.thankyou h1{
+.thankyou h2{
     padding-top: 20%;
     font-size: 4em;
     text-align: center;
@@ -620,7 +630,7 @@ padding-bottom: 20%;
   }
 
   #imgtext, #expandedImg{
-      font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
       font-weight: bold;
   }
 

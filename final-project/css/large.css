@@ -8,12 +8,12 @@
     box-shadow: 0 0 70px #808080;
 }
  
-h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
     font-family: "Glass Antiqua", cursive;
 }
 
 p {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
 }
 
 /*LOGO CSS*/
@@ -65,6 +65,8 @@ nav .active a {
     color: #333333;
 }
 
+
+
 /*Strip the ul of padding and list styling*/
 ul {
     list-style-type:none;
@@ -81,7 +83,6 @@ ul {
 /*Create a horizontal list with spacing*/
 li {
     display:inline-block;
-    margin-right: 1px;
 }
 /*Style for menu links*/
 li a {
@@ -98,11 +99,15 @@ li a {
     text-decoration: none;
 }
 
-nav li{
-  background-color: #EBF5EE;
+nav li ul li{
+    background-color: transparent;
+}
+
+nav li ul{
+    background-color: transparent;
 }
 /*Hover state for top level links*/
-li:hover a {
+li:hover a{
     background-color: #EBF5EE;
     color:#333333;
 }
@@ -125,7 +130,7 @@ li ul {
 /*Make dropdown links vertical*/
 li ul li {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
 }
 /*Prevent text wrapping*/
@@ -175,7 +180,7 @@ nav{
 /*SLIDESHOW*/
 
 .slideshow, .myslides{
-
+    
     width: 80%;  
     margin: 0 auto;
     margin-top: 10%;
@@ -184,7 +189,7 @@ nav{
 /*BOOK NOW*/
 
 button{
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-weight: bolder;
     display: inline-block;
     border-radius: 5rem;
@@ -214,10 +219,10 @@ button:hover {
 }
 
 button:active {
-  background-color:#333333;
-  color: #EBF5EE;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color:#333333;
+    color: #EBF5EE;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /*ARTICLE*/
@@ -347,7 +352,7 @@ address{
 }
 
 .link1{
-color: #333333;
+    color: #333333;
 }
 
 .link1:hover{
@@ -415,7 +420,7 @@ div .current{
 /*FORMS LARGE*/
 
 fieldset {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-size: 1.3em;
 }
 
@@ -469,8 +474,8 @@ form textarea{
 }
 
 form input[type=submit]{
-
-    font-family: "Open Sans Condensed", sans-serif;
+    
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-weight: bolder;
     display: inline-block;
     border-radius: 5rem;
@@ -518,14 +523,14 @@ form input[type=submit]:hover {
 }
 
 .thankyou p:nth-child(4){
-padding-bottom: 20%;
+    padding-bottom: 20%;
 }
 
 form input[type=submit]:active {
-  background-color:#333333;
-  color: #EBF5EE;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color:#333333;
+    color: #EBF5EE;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 
@@ -561,7 +566,7 @@ form input[type=submit]:active {
 .specialized{
     font-weight: bold;
     margin-top:5%;
-   
+    
 }
 
 .serviceList p {
@@ -584,13 +589,13 @@ form input[type=submit]:active {
     font-size: 1.3em;
     line-height: 2em;
 }
-    
+
 .receptions h3{
     font-weight: bold;
     padding-left: 3%;
     padding-top: 5%;
     font-size:2em;
-
+    
 }
 
 .gallery{
@@ -614,29 +619,29 @@ form input[type=submit]:active {
     float: left;
     width: 25%;
     padding: 10px;
-  }
+}
 
 .column img {
     opacity: 0.8; 
     cursor: pointer; 
-  }
+}
 
-  .column img:hover {
+.column img:hover {
     opacity: 1;
-  }
-  
-  .row:after {
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  .container {
+}
+
+.container {
     position: relative;
     display: none;
     width:50%;
     margin: 0 auto;
-  }
+}
 
 #imgtext {
     position: absolute;
@@ -644,37 +649,37 @@ form input[type=submit]:active {
     left: 15px;
     color: white;
     font-size: 20px;
-  }
-  
-  .closebtn {
+}
+
+.closebtn {
     position: absolute;
     top: 10px;
     right: 15px;
     color: white;
     font-size: 35px;
     cursor: pointer;
-  }
+}
 
-  #imgtext, #expandedImg{
-      font-family: "Open Sans Condensed", sans-serif;
-      font-weight: bold;
-  }
+#imgtext, #expandedImg{
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-weight: bold;
+}
 
-  /*CONTACT*/
+/*CONTACT*/
 
-  .contact{
-
+.contact{
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     padding-bottom: 5%;
     padding-top: 5%;
-  }
+}
 
- .para{
-     padding-top: 5%;
- }
+.para{
+    padding-top: 5%;
+}
 
 /*TEMPLES*/
 

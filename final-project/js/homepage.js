@@ -18,6 +18,7 @@ if (pageHREF !==""){
     }
 }
 
+
 //SLIDESHOW
 
 var index = 0;
