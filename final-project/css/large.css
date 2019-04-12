@@ -505,7 +505,7 @@ form input[type=submit]:hover {
     background-color: #EBF5EE;
 }
 
-.thankyou h1{
+.thankyou h2{
     padding-top: 15%;
     font-size: 4em;
     text-align: center;
@@ -533,7 +533,7 @@ form input[type=submit]:active {
 
 /*SERVICES*/
 
-.serviceTitle h1{
+.serviceTitle h2{
     text-align: center;
     border: solid #D8BFAA 10px;
     background-color: #ffffff;
@@ -597,7 +597,7 @@ form input[type=submit]:active {
     width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 4em;
     row-gap: 1em;
     align-items: center;
@@ -605,7 +605,7 @@ form input[type=submit]:active {
 }
 
 .gallery figure img{
-    width: 100%;
+    width: 110%;
 }
 
 /*FULL TIME MISSIONARIES*/
@@ -634,6 +634,8 @@ form input[type=submit]:active {
   .container {
     position: relative;
     display: none;
+    width:50%;
+    margin: 0 auto;
   }
 
 #imgtext {

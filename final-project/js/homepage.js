@@ -1,15 +1,3 @@
-//NAV HAMBURGER
-function toggleMenu(){
-    
-    document.getElementById("toggle").classList.toggle("hide");
-
-}
-
-function toggleMenu1(){
-    
-  document.getElementById("toggle1").classList.toggle("hide");
-
-}
 
 //WAYFINDING
 

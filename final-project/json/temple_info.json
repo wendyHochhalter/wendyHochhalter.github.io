@@ -43,6 +43,7 @@
 
         {
             "name": "Chicago, IL",
+            "information": "Temple Information",
             "address": "4151 W Lake Ave. Glenview, IL",
             "telephone": "(847)299-6500",
             "email": "chicagotemple@lds.org",
@@ -86,6 +87,7 @@
         },
         {
             "name": "Laie, HI",
+            "information": "Temple Information",
             "address": "55-600 Naniloa Loop. Laie HI",
             "telephone": "(808)293-2427",
             "email": "laietemple@lds.org",
@@ -141,6 +143,7 @@
         },
         {
             "name": "Phoenix, AZ",
+            "information": "Temple Information",
             "address": "5220 W Pinnacle Peak Rd. Phoenix, AZ",
             "telephone": "(623)474-9500",
             "email": "phoenixtemple@lds.org",
